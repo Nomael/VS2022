@@ -1,8 +1,0 @@
-C:\Users\noelm\Desktop\vs2022 projecte\test1\test1\test1\bin\Debug\test1.exe.config
-C:\Users\noelm\Desktop\vs2022 projecte\test1\test1\test1\bin\Debug\test1.exe
-C:\Users\noelm\Desktop\vs2022 projecte\test1\test1\test1\bin\Debug\test1.pdb
-C:\Users\noelm\Desktop\vs2022 projecte\test1\test1\test1\obj\Debug\test1.csproj.AssemblyReference.cache
-C:\Users\noelm\Desktop\vs2022 projecte\test1\test1\test1\obj\Debug\test1.csproj.SuggestedBindingRedirects.cache
-C:\Users\noelm\Desktop\vs2022 projecte\test1\test1\test1\obj\Debug\test1.csproj.CoreCompileInputs.cache
-C:\Users\noelm\Desktop\vs2022 projecte\test1\test1\test1\obj\Debug\test1.exe
-C:\Users\noelm\Desktop\vs2022 projecte\test1\test1\test1\obj\Debug\test1.pdb
