@@ -11,31 +11,44 @@ namespace test1
     {
         static void Main(string[] args)
         {
+            int Eingabe;
+
             double ps;
             float ps2;
-            float kmh2;
-            double kmh;
+            float kw2;
+            double kw;
 
             double laenge;
             double breite;
             string maeinheit;
             double flaeche;
 
+            double hoehe;
+            double volumen;
+
+            double radius;
+            double umfang;
+            double mantelflaeche;
+            double oberflaeche;
+
+
             Console.WriteLine("Tippe die Nummer ein!");
-            Console.WriteLine("PS nach KMH Tippe 1 | Flächeninhalt eines Dreieckes Tippe 2 | ...");
+            Console.WriteLine("PS nach KW Tippe 1 | Flächeninhalt eines Dreieckes Tippe 2 | Volumen einer Pyramide Tippe 3 | Oberfläche eines Zylinders Tippe 4");
 
-
-            int Eingabe;
             Eingabe = Convert.ToInt32(Console.ReadLine());
+
             if (Eingabe == 1)
             {
                 Console.WriteLine("Bitte gib die PS anzahl ein");
+                Console.Write("PS: ");
                 ps2 = Convert.ToInt32(Console.ReadLine());
                 ps = Convert.ToDouble(ps2);
-                kmh = ps / 1.36;
-                kmh2 = ps2 / 1.36f;
-                Console.WriteLine(ps + " PS sind " + kmh + " KMH (double)");
-                Console.WriteLine(ps2 + " PS sind " + kmh2 + " KMH (float)");
+
+                kw = ps / 1.36;
+                kw2 = ps2 / 1.36f;
+
+                Console.WriteLine(ps + " PS sind " + kw + " KW (double)");
+                Console.WriteLine(ps2 + " PS sind " + kw2 + " KW (float)");
                 Console.ReadLine();
             }
 
@@ -44,46 +57,76 @@ namespace test1
                 Console.WriteLine("Gib Bitte die Länge und Breite ein");
                 Console.Write("Länge: ");
                 laenge = Convert.ToInt32(Console.ReadLine());
+
                 Console.Write("Breite: ");
                 breite = Convert.ToInt32(Console.ReadLine());
+
                 Console.Write("Maßeinheit (optional): ");
                 maeinheit = Convert.ToString(Console.ReadLine());
+
                 flaeche = laenge * breite;
 
-                if(maeinheit != "")
+                if (laenge == breite)
                 {
-                    Console.WriteLine("Der flächeninhalt des Rechteckes ist: " + flaeche + maeinheit + "²");
+                    Console.WriteLine("Der Flächeninhalt des Quadrates ist: " + flaeche + maeinheit + "²");
                 }
                 else
                 {
-                    Console.WriteLine("Der flächeninhalt des Rechteckes ist: " + flaeche);
+                    Console.WriteLine("Der Flächeninhalt des Rechteckes ist: " + flaeche + maeinheit + "²");
                 }
 
                 Console.ReadLine();
             }
 
-            if (Eingabe == 2)
+            if (Eingabe == 3)
             {
-                Console.WriteLine("Gib Bitte die Länge und Breite ein");
+                Console.WriteLine("Gib Bitte die Länge und Höhe ein");
                 Console.Write("Länge: ");
                 laenge = Convert.ToInt32(Console.ReadLine());
+
                 Console.Write("Breite: ");
                 breite = Convert.ToInt32(Console.ReadLine());
+
+                Console.Write("Höhe: ");
+                hoehe = Convert.ToInt32(Console.ReadLine());
+
                 Console.Write("Maßeinheit (optional): ");
                 maeinheit = Convert.ToString(Console.ReadLine());
-                flaeche = laenge * breite;
 
-                if (maeinheit != "")
-                {
-                    Console.WriteLine("Der flächeninhalt des Rechteckes ist: " + flaeche + maeinheit + "²");
-                }
-                else
-                {
-                    Console.WriteLine("Der flächeninhalt des Rechteckes ist: " + flaeche);
-                }
+                flaeche = laenge * breite;
+                volumen = 1.0 / 3.0 * flaeche * hoehe;
+
+                Console.WriteLine("Das Volumen der Pyramide ist: " + volumen + maeinheit + "³");
+                Console.WriteLine("Die Grundfläche der Pyramide ist: " + flaeche + maeinheit + "²");
 
                 Console.ReadLine();
             }
+
+            if (Eingabe == 4)
+            {
+                Console.WriteLine("Gib Bitte den Radius, die Höhe");
+                Console.Write("Radius: ");
+                radius = Convert.ToInt32(Console.ReadLine());
+
+                Console.Write("Höhe: ");
+                hoehe = Convert.ToInt32(Console.ReadLine());
+
+                Console.Write("Maßeinheit (optional): ");
+                maeinheit = Convert.ToString(Console.ReadLine());
+
+                flaeche = Math.PI * radius * radius;
+                umfang = 2 * Math.PI * radius;
+                mantelflaeche = umfang * hoehe;
+                oberflaeche = 2 * flaeche + mantelflaeche;
+
+                Console.WriteLine("Die Grundfläche des Zylinders ist: " + flaeche + maeinheit + "²");
+                Console.WriteLine("Der Umfang des Zylinders ist: " + umfang + maeinheit);
+                Console.WriteLine("Die Mantelfläche des Zylinders ist: " + mantelflaeche + maeinheit + "²");
+                Console.WriteLine("Die Oberfläche des Zylinders ist: " + oberflaeche + maeinheit + "²");
+
+                Console.ReadLine();
+            }
+
             Console.ReadKey();
         }
     }
