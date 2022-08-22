@@ -49,7 +49,6 @@ namespace test1
 
                 Console.WriteLine(ps + " PS sind " + kw + " KW (double)");
                 Console.WriteLine(ps2 + " PS sind " + kw2 + " KW (float)");
-                Console.ReadLine();
             }
 
             if (Eingabe == 2)
@@ -74,8 +73,6 @@ namespace test1
                 {
                     Console.WriteLine("Der Flächeninhalt des Rechteckes ist: " + flaeche + maeinheit + "²");
                 }
-
-                Console.ReadLine();
             }
 
             if (Eingabe == 3)
@@ -98,8 +95,6 @@ namespace test1
 
                 Console.WriteLine("Das Volumen der Pyramide ist: " + volumen + maeinheit + "³");
                 Console.WriteLine("Die Grundfläche der Pyramide ist: " + flaeche + maeinheit + "²");
-
-                Console.ReadLine();
             }
 
             if (Eingabe == 4)
@@ -123,10 +118,9 @@ namespace test1
                 Console.WriteLine("Der Umfang des Zylinders ist: " + umfang + maeinheit);
                 Console.WriteLine("Die Mantelfläche des Zylinders ist: " + mantelflaeche + maeinheit + "²");
                 Console.WriteLine("Die Oberfläche des Zylinders ist: " + oberflaeche + maeinheit + "²");
-
-                Console.ReadLine();
             }
 
+            //Console.ReadLine();
             Console.ReadKey();
         }
     }
