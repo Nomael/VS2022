@@ -11,7 +11,7 @@ namespace test1
     {
         static void Main(string[] args)
         {
-            int Eingabe;
+            int eingabe;
 
             double ps;
             float ps2;
@@ -35,9 +35,9 @@ namespace test1
             Console.WriteLine("Tippe die Nummer ein!");
             Console.WriteLine("PS nach KW Tippe 1 | Flächeninhalt eines Dreieckes Tippe 2 | Volumen einer Pyramide Tippe 3 | Oberfläche eines Zylinders Tippe 4");
 
-            Eingabe = Convert.ToInt32(Console.ReadLine());
+            eingabe = Convert.ToInt32(Console.ReadLine());
 
-            if (Eingabe == 1)
+            if (eingabe == 1)
             {
                 Console.WriteLine("Bitte gib die PS anzahl ein");
                 Console.Write("PS: ");
@@ -51,7 +51,7 @@ namespace test1
                 Console.WriteLine(ps2 + " PS sind " + kw2 + " KW (float)");
             }
 
-            if (Eingabe == 2)
+            if (eingabe == 2)
             {
                 Console.WriteLine("Gib Bitte die Länge und Breite ein");
                 Console.Write("Länge: ");
@@ -75,7 +75,7 @@ namespace test1
                 }
             }
 
-            if (Eingabe == 3)
+            if (eingabe == 3)
             {
                 Console.WriteLine("Gib Bitte die Länge und Höhe ein");
                 Console.Write("Länge: ");
@@ -97,7 +97,7 @@ namespace test1
                 Console.WriteLine("Die Grundfläche der Pyramide ist: " + flaeche + maeinheit + "²");
             }
 
-            if (Eingabe == 4)
+            if (eingabe == 4)
             {
                 Console.WriteLine("Gib Bitte den Radius, die Höhe");
                 Console.Write("Radius: ");
