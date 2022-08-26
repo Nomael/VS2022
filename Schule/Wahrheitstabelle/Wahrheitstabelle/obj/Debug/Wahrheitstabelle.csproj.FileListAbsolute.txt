@@ -1,0 +1,8 @@
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Wahrheitstabelle\Wahrheitstabelle\bin\Debug\Wahrheitstabelle.exe.config
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Wahrheitstabelle\Wahrheitstabelle\bin\Debug\Wahrheitstabelle.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Wahrheitstabelle\Wahrheitstabelle\bin\Debug\Wahrheitstabelle.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Wahrheitstabelle\Wahrheitstabelle\obj\Debug\Wahrheitstabelle.csproj.AssemblyReference.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Wahrheitstabelle\Wahrheitstabelle\obj\Debug\Wahrheitstabelle.csproj.SuggestedBindingRedirects.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Wahrheitstabelle\Wahrheitstabelle\obj\Debug\Wahrheitstabelle.csproj.CoreCompileInputs.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Wahrheitstabelle\Wahrheitstabelle\obj\Debug\Wahrheitstabelle.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Wahrheitstabelle\Wahrheitstabelle\obj\Debug\Wahrheitstabelle.pdb
