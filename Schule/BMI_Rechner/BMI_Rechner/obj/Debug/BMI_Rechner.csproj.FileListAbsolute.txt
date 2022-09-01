@@ -1,0 +1,8 @@
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\BMI_Rechner\BMI_Rechner\bin\Debug\BMI_Rechner.exe.config
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\BMI_Rechner\BMI_Rechner\bin\Debug\BMI_Rechner.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\BMI_Rechner\BMI_Rechner\bin\Debug\BMI_Rechner.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\BMI_Rechner\BMI_Rechner\obj\Debug\BMI_Rechner.csproj.AssemblyReference.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\BMI_Rechner\BMI_Rechner\obj\Debug\BMI_Rechner.csproj.SuggestedBindingRedirects.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\BMI_Rechner\BMI_Rechner\obj\Debug\BMI_Rechner.csproj.CoreCompileInputs.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\BMI_Rechner\BMI_Rechner\obj\Debug\BMI_Rechner.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\BMI_Rechner\BMI_Rechner\obj\Debug\BMI_Rechner.pdb

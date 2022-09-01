@@ -1,8 +1,0 @@
-C:\Users\noelm\Documents\GitHub\VS2022\Schule\Rechner Noe Mal\Rechner Noe Mal\bin\Debug\Rechner Noe Mal.exe.config
-C:\Users\noelm\Documents\GitHub\VS2022\Schule\Rechner Noe Mal\Rechner Noe Mal\bin\Debug\Rechner Noe Mal.exe
-C:\Users\noelm\Documents\GitHub\VS2022\Schule\Rechner Noe Mal\Rechner Noe Mal\bin\Debug\Rechner Noe Mal.pdb
-C:\Users\noelm\Documents\GitHub\VS2022\Schule\Rechner Noe Mal\Rechner Noe Mal\obj\Debug\Rechner Noe Mal.csproj.AssemblyReference.cache
-C:\Users\noelm\Documents\GitHub\VS2022\Schule\Rechner Noe Mal\Rechner Noe Mal\obj\Debug\Rechner Noe Mal.csproj.SuggestedBindingRedirects.cache
-C:\Users\noelm\Documents\GitHub\VS2022\Schule\Rechner Noe Mal\Rechner Noe Mal\obj\Debug\Rechner Noe Mal.csproj.CoreCompileInputs.cache
-C:\Users\noelm\Documents\GitHub\VS2022\Schule\Rechner Noe Mal\Rechner Noe Mal\obj\Debug\Rechner Noe Mal.exe
-C:\Users\noelm\Documents\GitHub\VS2022\Schule\Rechner Noe Mal\Rechner Noe Mal\obj\Debug\Rechner Noe Mal.pdb

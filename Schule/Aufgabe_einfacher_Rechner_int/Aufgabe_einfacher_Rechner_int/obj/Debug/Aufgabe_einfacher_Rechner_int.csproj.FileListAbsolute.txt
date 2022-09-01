@@ -1,0 +1,8 @@
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Aufgabe_einfacher_Rechner_int\Aufgabe_einfacher_Rechner_int\bin\Debug\Aufgabe_einfacher_Rechner_int.exe.config
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Aufgabe_einfacher_Rechner_int\Aufgabe_einfacher_Rechner_int\bin\Debug\Aufgabe_einfacher_Rechner_int.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Aufgabe_einfacher_Rechner_int\Aufgabe_einfacher_Rechner_int\bin\Debug\Aufgabe_einfacher_Rechner_int.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Aufgabe_einfacher_Rechner_int\Aufgabe_einfacher_Rechner_int\obj\Debug\Aufgabe_einfacher_Rechner_int.csproj.AssemblyReference.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Aufgabe_einfacher_Rechner_int\Aufgabe_einfacher_Rechner_int\obj\Debug\Aufgabe_einfacher_Rechner_int.csproj.SuggestedBindingRedirects.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Aufgabe_einfacher_Rechner_int\Aufgabe_einfacher_Rechner_int\obj\Debug\Aufgabe_einfacher_Rechner_int.csproj.CoreCompileInputs.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Aufgabe_einfacher_Rechner_int\Aufgabe_einfacher_Rechner_int\obj\Debug\Aufgabe_einfacher_Rechner_int.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Aufgabe_einfacher_Rechner_int\Aufgabe_einfacher_Rechner_int\obj\Debug\Aufgabe_einfacher_Rechner_int.pdb
