@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{4B4F8FBC-0FB6-45B4-9F67-79E0226857F0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Rechner_Noe_Mal</RootNamespace>
-    <AssemblyName>Rechner Noe Mal</AssemblyName>
+    <RootNamespace>Rechner_Noel_Malchow</RootNamespace>
+    <AssemblyName>Rechner_Noel_Malchow</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
