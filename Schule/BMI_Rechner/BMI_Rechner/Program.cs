@@ -13,7 +13,7 @@ namespace BMI_Rechner
         {
             int eingabe;
 
-            double BMI;
+            double bmi;
             double kg;
             double m;
 
@@ -25,9 +25,9 @@ namespace BMI_Rechner
             Console.Write("Größe: ");
             m = Convert.ToDouble(Console.ReadLine());
 
-            BMI = kg / (m * m);
+            bmi = kg / (m * m);
 
-            Console.WriteLine(BMI);
+            Console.WriteLine(bmi);
 
             Console.WriteLine("Gebe nun 0 - 2 für die aufgaben A - C ein");
 
@@ -36,13 +36,13 @@ namespace BMI_Rechner
             switch (eingabe)
             {
                 case 0:
-                    if (BMI > 25)
+                    if (bmi > 25)
                     {
                         Console.WriteLine("Sie sind zu schwer.");
                     }
                     else
                     {
-                        if (BMI < 18)
+                        if (bmi < 18)
                         {
                             Console.WriteLine("Sie sind zu leicht.");
                         }
@@ -50,13 +50,13 @@ namespace BMI_Rechner
                     break;
 
                 case 1:
-                    if (BMI > 25)
+                    if (bmi > 25)
                     {
                         Console.WriteLine("Sie sind zu schwer.");
                     }
                     else
                     {
-                        if (BMI < 18)
+                        if (bmi < 18)
                         {
                             Console.WriteLine("Sie sind zu leicht.");
                         }
@@ -70,13 +70,13 @@ namespace BMI_Rechner
                     break;
 
                 case 2:
-                    if (BMI > 25)
+                    if (bmi > 25)
                     {
                         Console.WriteLine("Sie sind zu schwer.");
                     }
                     else
                     {
-                        if (BMI < 18)
+                        if (bmi < 18)
                         {
                             Console.WriteLine("Sie sind zu leicht.");
                         }

@@ -1,0 +1,8 @@
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Umsatz_-_Bonus\Umsatz_-_Bonus\bin\Debug\Umsatz_-_Bonus.exe.config
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Umsatz_-_Bonus\Umsatz_-_Bonus\bin\Debug\Umsatz_-_Bonus.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Umsatz_-_Bonus\Umsatz_-_Bonus\bin\Debug\Umsatz_-_Bonus.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Umsatz_-_Bonus\Umsatz_-_Bonus\obj\Debug\Umsatz_-_Bonus.csproj.AssemblyReference.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Umsatz_-_Bonus\Umsatz_-_Bonus\obj\Debug\Umsatz_-_Bonus.csproj.SuggestedBindingRedirects.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Umsatz_-_Bonus\Umsatz_-_Bonus\obj\Debug\Umsatz_-_Bonus.csproj.CoreCompileInputs.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Umsatz_-_Bonus\Umsatz_-_Bonus\obj\Debug\Umsatz_-_Bonus.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Umsatz_-_Bonus\Umsatz_-_Bonus\obj\Debug\Umsatz_-_Bonus.pdb
