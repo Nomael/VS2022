@@ -1,0 +1,8 @@
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\TESTS\Alter_Erkennung\Alter_Erkennung\bin\Debug\Alter_Erkennung.exe.config
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\TESTS\Alter_Erkennung\Alter_Erkennung\bin\Debug\Alter_Erkennung.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\TESTS\Alter_Erkennung\Alter_Erkennung\bin\Debug\Alter_Erkennung.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\TESTS\Alter_Erkennung\Alter_Erkennung\obj\Debug\Alter_Erkennung.csproj.AssemblyReference.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\TESTS\Alter_Erkennung\Alter_Erkennung\obj\Debug\Alter_Erkennung.csproj.SuggestedBindingRedirects.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\TESTS\Alter_Erkennung\Alter_Erkennung\obj\Debug\Alter_Erkennung.csproj.CoreCompileInputs.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\TESTS\Alter_Erkennung\Alter_Erkennung\obj\Debug\Alter_Erkennung.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\TESTS\Alter_Erkennung\Alter_Erkennung\obj\Debug\Alter_Erkennung.pdb
