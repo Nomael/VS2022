@@ -1,0 +1,8 @@
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\For_While_Schleifen\For_While_Schleifen\bin\Debug\For_While_Schleifen.exe.config
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\For_While_Schleifen\For_While_Schleifen\bin\Debug\For_While_Schleifen.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\For_While_Schleifen\For_While_Schleifen\bin\Debug\For_While_Schleifen.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\For_While_Schleifen\For_While_Schleifen\obj\Debug\For_While_Schleifen.csproj.AssemblyReference.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\For_While_Schleifen\For_While_Schleifen\obj\Debug\For_While_Schleifen.csproj.SuggestedBindingRedirects.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\For_While_Schleifen\For_While_Schleifen\obj\Debug\For_While_Schleifen.csproj.CoreCompileInputs.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\For_While_Schleifen\For_While_Schleifen\obj\Debug\For_While_Schleifen.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\For_While_Schleifen\For_While_Schleifen\obj\Debug\For_While_Schleifen.pdb

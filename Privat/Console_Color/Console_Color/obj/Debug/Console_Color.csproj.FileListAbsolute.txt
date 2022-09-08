@@ -1,0 +1,8 @@
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Console_Color\Console_Color\bin\Debug\Console_Color.exe.config
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Console_Color\Console_Color\bin\Debug\Console_Color.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Console_Color\Console_Color\bin\Debug\Console_Color.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Console_Color\Console_Color\obj\Debug\Console_Color.csproj.AssemblyReference.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Console_Color\Console_Color\obj\Debug\Console_Color.csproj.SuggestedBindingRedirects.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Console_Color\Console_Color\obj\Debug\Console_Color.csproj.CoreCompileInputs.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Console_Color\Console_Color\obj\Debug\Console_Color.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Console_Color\Console_Color\obj\Debug\Console_Color.pdb
