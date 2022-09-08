@@ -1,0 +1,41 @@
+STARTING FILE PREPARATION...
+
+
+FILE PREPARATION COMPLETE -> "C:\Users\noelm\AppData\Local\Temp\Structorizer2813839856579242788.java"
+
+Token '{'	at [1,1]
+
+error.syntax in file "C:\Users\noelm\Downloads\struktog_2022-09-08.json"
+
+Preceding source context:
+    1:   » {"id":"641a2256-e5f7-293c-8556-035e1f6e","type":"InsertNode","followElement":{"id":"eb9273c8-3dfc-
+     +   9498-99ab-6911cdcd","type":"TaskNode","text":"double unsatz = 0","followElement":{"id":"a5c308d0-205
+     +   4-9dcc-b15e-aff63e27","type":"InsertNode","followElement":{"id":"dd056530-5c33-c9a2-2c60-7a5d4b25","
+     +   type":"TaskNode","text":"double bonus = 0","followElement":{"id":"82ee6e8e-07e0-2393-e503-5ffa1088",
+     +   "type":"InsertNode","followElement":{"id":"46fca4b6-d791-ece3-34bb-1d24a69c","type":"InputNode","tex
+     +   t":"umsatz","followElement":{"id":"94e4f4ae-1b96-2a36-6308-a7e48df0","type":"InsertNode","followElem
+     +   ent":{"id":"3d380b23-1880-8601-7b7f-301decd4","type":"BranchNode","text":"umsatz > 2000","followElem
+     +   ent":{"id":"4245e7d5-fc50-4934-dbd8-bfc677ad","type":"InsertNode","followElement":null},"trueChild":
+     +   {"id":"b8cee378-d16a-2f4e-9985-da413785","type":"InsertNode","followElement":{"id":"f5065ba9-1cce-31
+     +   bf-e74f-92c6b34a","type":"BranchNode","text":"umsatz >= 3000","followElement":{"id":"2465d730-4db6-0
+     +   aa2-b6a4-5c74b175","type":"InsertNode","followElement":null},"trueChild":{"id":"b9d277cb-6b2e-d765-8
+     +   768-e015ba43","type":"InsertNode","followElement":{"id":"a20f5efb-aea1-01d6-b5a9-0a7dea08","type":"B
+     +   ranchNode","text":"umsatz >= 10000","followElement":{"id":"db57ceca-1a04-95c6-e47d-9f9a6c57","type":
+     +   "InsertNode","followElement":null},"trueChild":{"id":"6e02a83d-4913-f4a8-3615-a77accb6","type":"Inse
+     +   rtNode","followElement":{"id":"e2ba46ee-91c1-fca1-65a5-56cb0da9","type":"TaskNode","text":"bonus = 1
+     +   0000","followElement":{"id":"2ad8c41d-58f1-b797-b0a1-477b13d7","type":"InsertNode","followElement":n
+     +   ull}}},"falseChild":{"id":"df027198-1181-d65a-5b24-77bc64b6","type":"InsertNode","followElement":{"i
+     +   d":"cefae905-f5ad-fe20-e6ad-48a41d22","type":"TaskNode","text":"bonus = 500","followElement":{"id":"
+     +   c669c8cb-b215-292c-8a3f-80d104dc","type":"InsertNode","followElement":null}}}}},"falseChild":{"id":"
+     +   c98b12ab-0563-3f3b-183f-87b7ed75","type":"InsertNode","followElement":{"id":"0f1b0a0e-cbb2-4ee2-246c
+     +   -82600d29","type":"TaskNode","text":"bonus = 100","followElement":{"id":"e355fa04-4d8c-46d6-b955-574
+     +   fbec5","type":"InsertNode","followElement":null}}}}},"falseChild":{"id":"60bafb38-7f58-9531-b304-8fa
+     +   72f74","type":"InsertNode","followElement":{"id":"ed12d987-9b3d-340f-7491-650bc9c5","type":"TaskNode
+     +   ","text":"bonus = 0","followElement":{"id":"7d5ab35b-3cf4-46c6-762b-d308e125","type":"InsertNode","f
+     +   ollowElement":null}}}}}}}}}}}
+
+Found token '{'
+
+Expected: ';' | '@' | import | package | (EOF) | abstract | class | default | final | interface | native | private
+        | protected | public | static | strictfp | synchronized | transient | volatile
+
