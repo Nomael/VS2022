@@ -1,0 +1,8 @@
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Summe_Mittelwert\Summe_Mittelwert\bin\Debug\Summe_Mittelwert.exe.config
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Summe_Mittelwert\Summe_Mittelwert\bin\Debug\Summe_Mittelwert.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Summe_Mittelwert\Summe_Mittelwert\bin\Debug\Summe_Mittelwert.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Summe_Mittelwert\Summe_Mittelwert\obj\Debug\Summe_Mittelwert.csproj.AssemblyReference.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Summe_Mittelwert\Summe_Mittelwert\obj\Debug\Summe_Mittelwert.csproj.SuggestedBindingRedirects.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Summe_Mittelwert\Summe_Mittelwert\obj\Debug\Summe_Mittelwert.csproj.CoreCompileInputs.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Summe_Mittelwert\Summe_Mittelwert\obj\Debug\Summe_Mittelwert.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Summe_Mittelwert\Summe_Mittelwert\obj\Debug\Summe_Mittelwert.pdb
