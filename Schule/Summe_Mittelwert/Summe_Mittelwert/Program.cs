@@ -30,13 +30,23 @@ namespace Summe_Mittelwert
                     nummer += 1;
                     mittelwert = summe / nummer;
 
-                    //if(eingabe > max_zahl)
-                    //{
-                    //    max_zahl = eingabe;
-                    //}
+                    if (eingabe > max_zahl)
+                    {
+                        max_zahl = eingabe;
+                    }
+
+                    if (nummer <= 1)
+                    {
+                        min_zahl = eingabe;
+                    }
+                    else if (eingabe < min_zahl)
+                    {
+                        min_zahl = eingabe;
+                    }
                 }
             }
-            Console.WriteLine("Summe: " + summe + "\nMittelwert: " + mittelwert + "\nAnzahl der Zahlen: " + nummer);
+            Console.WriteLine("\nSumme: " + summe + "\nMittelwert: " + mittelwert + "\nAnzahl der Zahlen: " + nummer);
+            Console.WriteLine("Max Zahl: " + max_zahl + "\nMin Zahl: " + min_zahl);
             Console.ReadLine();
         }
     }
