@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 
@@ -25,9 +27,9 @@ namespace Schleifen_Uebungen
                 Console.WriteLine("(4) Umgekehrte * Dreieck");
                 Console.WriteLine("(4.1) * Dreieck");
                 Console.WriteLine("(5) n Fakultät");
-                Console.WriteLine("(6) ");
-                Console.WriteLine("(9) ");
-                Console.WriteLine("(13) ");
+                Console.WriteLine("(6) Potenz Rechner");
+                Console.WriteLine("(9) 6er Zähler (Eine Schleife und 2 Schleifen)");
+                Console.WriteLine("(13) Polynom – Wertetabelle");
                 Console.WriteLine("---------------------");
                 Console.WriteLine("(end) Ende");
 
@@ -85,9 +87,9 @@ namespace Schleifen_Uebungen
                         Console.Clear();
                         Console.WriteLine("Dies ist ein * Dreieck");
 
-                        for (zeile = 1; zeile <= 20; zeile ++)
+                        for (zeile = 1; zeile <= 20; zeile++)
                         {
-                            for (spalte = 1; spalte <= zeile; spalte ++)
+                            for (spalte = 1; spalte <= zeile; spalte++)
                             {
                                 Console.Write("*");
                             }
@@ -113,7 +115,8 @@ namespace Schleifen_Uebungen
                         }
                         Console.WriteLine("\nDas ergebnis der Fakultät ist:\n");
                         Console.Write(n + "! = ");
-                        for (int i = 0; i < zahl.Length; i++) {
+                        for (int i = 0; i < zahl.Length; i++)
+                        {
 
                             if (i == zahl.Length - 1)
                             {
@@ -126,7 +129,79 @@ namespace Schleifen_Uebungen
                         }
                         break;
 
-                    case "6":
+                    case "6": // Aufgabe 6: Potenz Rechner
+                        int zahl6;
+                        int sum6 = 1;
+                        int potenz6;
+
+                        Console.Clear();
+                        Console.WriteLine("Bitte gib eine Zahl und dessen Potzenz ein");
+                        Console.Write("Zahl: ");
+                        zahl6 = Convert.ToInt32(Console.ReadLine());
+                        Console.Write("Potenz: ");
+                        potenz6 = Convert.ToInt32(Console.ReadLine());
+
+                        for (int i = 0; i < potenz6; i++)
+                        {
+                            sum6 *= zahl6;
+                        }
+
+                        Console.WriteLine("Die Zahl " + zahl6 + " mit der Potenz hoch " + potenz6 + " ergibt: " + sum6);
+                        break;
+
+                    case "9": // Aufgabe 9: 6er Zähler
+                        int interface9 = 0;
+                        int interface9num = 24;
+                        int intzeile9 = 4;
+                        int intspalte9 = 6;
+                        string choose9 = "";
+                        Console.Clear();
+                        Console.WriteLine("Das Programm wird eine Reihe an Zahlen anzeigen die in 6er schritten einen umbruch machen");
+                        //Console.WriteLine("Beispiel: \n");
+                        //Console.WriteLine(" 1  2  3  4  5  6\n 7  8  9 10 11 12\n13 14 15 16 17 18\n19 20 21 22 23 24\n...\n");
+                        Console.WriteLine("Zum Starten bitte (1loop) oder (2loop) schreiben");
+                        Console.Write("Eingabe: ");
+                        choose9 = Convert.ToString(Console.ReadLine());
+
+                        if (choose9 == "1loop")
+                        {
+                            for (int i = 1; i <= interface9num; i++)
+                            {
+                                interface9 += 1;
+                                if (interface9 % 6 == 1)
+                                {
+                                    Console.Write("\n" + i);
+                                }
+                                else
+                                {
+                                    Console.Write(i);
+                                }
+                            }
+                            Console.Write("\n...");
+
+                        }
+                        else if (choose9 == "2loop")
+                        {
+                            int j9;
+                            for (int i = 0; i < intzeile9; i++)
+                            {
+                                for (j9 = 0; j9 < intspalte9; j9++)
+                                {
+                                    interface9 += 1;
+                                    Console.Write(interface9 + " ");
+                                    
+                                }
+                                Console.Write("\n");
+                                j9 = 0;
+                            }
+                            Console.Write("...");
+                        }
+                        break;
+
+                    case "13": // Aufgabe 13: Polynom – Wertetabelle
+
+                        Console.Clear();
+
                         break;
 
                     case "end":
@@ -141,6 +216,7 @@ namespace Schleifen_Uebungen
                         break;
                 }
 
+                //Task.Delay(2000).Wait(); //Funktion um automatisches weiterlaufen des Codes zu garantieren (Nur zu Testen da)
                 Console.ReadKey();
 
             } while (eingabe != "end");
