@@ -99,7 +99,7 @@ namespace Schleifen_Uebungen
 
                     case "5": // Aufgabe 5: n Fakultät
                         int n = 0;
-                        int sum5 = 1;
+                        decimal fakultaet5 = 1;
 
                         Console.Clear();
                         Console.WriteLine("Bitte gib die menge der Fakultät ein");
@@ -111,7 +111,7 @@ namespace Schleifen_Uebungen
                         for (int i = 1; i <= zahl.Length; i++)
                         {
                             zahl[i - 1] = i;
-                            sum5 *= i;
+                            fakultaet5 *= i;
                         }
                         Console.WriteLine("\nDas ergebnis der Fakultät ist:\n");
                         Console.Write(n + "! = ");
@@ -120,7 +120,7 @@ namespace Schleifen_Uebungen
 
                             if (i == zahl.Length - 1)
                             {
-                                Console.Write(zahl[i] + " = " + sum5);
+                                Console.Write(zahl[i] + " = " + fakultaet5);
                             }
                             if (i < zahl.Length - 2)
                             {
@@ -199,8 +199,37 @@ namespace Schleifen_Uebungen
                         break;
 
                     case "13": // Aufgabe 13: Polynom – Wertetabelle
+                        int koeffizientA;
+                        int koeffizientB;
+                        int koeffizientC;
+                        int zahlanfang;
+                        int zahlende;
+                        int zahlschritt;
+                        int zahlinsgesammt;
+                        int zahlx;
+                        int zahly;
 
                         Console.Clear();
+                        Console.WriteLine("Bitte gib die Koeffizienten a, b und c ein");
+                        Console.Write("Koeffizienten a: ");
+                        koeffizientA = Convert.ToInt32(Console.ReadLine());
+                        Console.Write("Koeffizienten b: ");
+                        koeffizientB = Convert.ToInt32(Console.ReadLine());
+                        Console.Write("Koeffizienten c: ");
+                        koeffizientC = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine("Bitte gib den Wertebereich und die Schrittweite ein");
+                        Console.Write("Wertanfang: ");
+                        zahlanfang = Convert.ToInt32(Console.ReadLine());
+                        Console.Write("Wertende: ");
+                        zahlende = Convert.ToInt32(Console.ReadLine());
+                        Console.Write("Schrittweite: ");
+                        zahlschritt = Convert.ToInt32(Console.ReadLine());
+
+                        zahlinsgesammt = (zahlanfang *-1);
+
+                        Console.Write(" x | y= x²");
+                        Console.Write(" " + zahlx + " | " + zahly);
 
                         break;
 
