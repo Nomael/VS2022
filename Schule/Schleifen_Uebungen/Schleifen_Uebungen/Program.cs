@@ -72,9 +72,9 @@ namespace Schleifen_Uebungen
                         Console.Clear();
                         Console.WriteLine("Dies ist ein Ungedrehtes * Dreieck");
 
-                        for (zeile = 20; zeile >= 1; zeile = zeile - 1)
+                        for (zeile = 20; zeile >= 1; zeile--)
                         {
-                            for (spalte = 1; spalte <= zeile; spalte = spalte + 1)
+                            for (spalte = 1; spalte <= zeile; spalte++)
                             {
                                 Console.Write("*");
                             }
@@ -82,7 +82,7 @@ namespace Schleifen_Uebungen
                         }
                         break;
 
-                    case "4.1": // Aufgabe 4: Umgekehrtes * Dreieck
+                    case "4.1": // Aufgabe 4: * Dreieck
 
                         Console.Clear();
                         Console.WriteLine("Dies ist ein * Dreieck");
@@ -170,11 +170,11 @@ namespace Schleifen_Uebungen
                                 interface9 += 1;
                                 if (interface9 % 6 == 1)
                                 {
-                                    Console.Write("\n" + i);
+                                    Console.Write("\n" + i + " ");
                                 }
                                 else
                                 {
-                                    Console.Write(i);
+                                    Console.Write(i + " ");
                                 }
                             }
                             Console.Write("\n...");
