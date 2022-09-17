@@ -15,7 +15,7 @@ namespace Schleifen_Uebungen
         {
             // Loding Screen
             Random rnd = new Random();
-            int loadingscreenset = rnd.Next(3,8);
+            int loadingscreenset = rnd.Next(3, 8);
             bool loadingscreen = false;
 
             //Menu
@@ -55,6 +55,7 @@ namespace Schleifen_Uebungen
 
                 if (loadingscreen == false)
                 {
+                    Console.Write("\nAufgabe: ");
                     eingabe = Convert.ToString(Console.ReadLine());
                 }
 
@@ -212,7 +213,7 @@ namespace Schleifen_Uebungen
                                 {
                                     interface9 += 1;
                                     Console.Write(interface9 + " ");
-                                    
+
                                 }
                                 Console.Write("\n");
                                 j9 = 0;
@@ -224,98 +225,138 @@ namespace Schleifen_Uebungen
                     case "13": // Aufgabe 13: Polynom – Wertetabelle
                         string eingabe13;
 
-                        int koeffizientA;
-                        int koeffizientB;
-                        int koeffizientC;
+                        int koeffizientA = 0;
+                        int koeffizientB = 0;
+                        int koeffizientC = 0;
 
-                        int zahlanfang;
-                        int zahlende;
-                        int zahlschritt;
-                        int zahlinsgesammt;
-                        int zahlarray;
+                        int zahlanfang = 0;
+                        int zahlende = 0;
+                        int zahlschritt = 0;
+                        int zahlinsgesammt = 0;
+                        int zahlarray = 0;
                         int arrayzaehler = 0;
+                        decimal[] zahlx = new decimal[zahlarray];
+                        decimal[] zahly = new decimal[zahlarray];
+                        string[] zahlyt = new string[zahlarray];
 
-                        int[] y1;
-                        int[] y2;
-                        int[] x1;
-                        int[] x2;
-                        int[] yze;
+                        decimal ye = 0;
+                        decimal xe = 0;
+                        decimal xye = 0;
 
-                        Console.Clear();
-
-                        Console.WriteLine("\t---------- Polynom – Wertetabelle ------------\n");
-                        Console.WriteLine("y(x) = ax²+bx+c \n");
-                        Console.WriteLine("Bitte gebe einen Buchstaben ein");
-                        Console.WriteLine("a) Eingabe der Koeffizienten (a,b,c)");
-                        Console.WriteLine("(4) Umgekehrte * Dreieck");
-                        Console.WriteLine("(4.1) * Dreieck");
-                        Console.WriteLine("(5) n Fakultät");
-                        Console.WriteLine("(6) Potenz Rechner");
-                        Console.WriteLine("(9) 6er Zähler (Eine Schleife und 2 Schleifen)");
-                        Console.WriteLine("(13) Polynom – Wertetabelle");
-                        Console.WriteLine("---------------------");
-                        Console.WriteLine("(end) Ende");
-
-                        eingabe13 = Convert.ToString(Console.ReadLine());
-
-                        Console.WriteLine("Bitte gib die Koeffizienten a, b und c ein");
-                        Console.Write("Koeffizienten a: ");
-                        koeffizientA = Convert.ToInt32(Console.ReadLine());
-                        Console.Write("Koeffizienten b: ");
-                        koeffizientB = Convert.ToInt32(Console.ReadLine());
-                        Console.Write("Koeffizienten c: ");
-                        koeffizientC = Convert.ToInt32(Console.ReadLine());
-
-                        Console.WriteLine("\nBitte gib den Wertebereich und die Schrittweite ein");
-                        Console.Write("Wertanfang: ");
-                        zahlanfang = Convert.ToInt32(Console.ReadLine());
-                        Console.Write("Wertende: ");
-                        zahlende = Convert.ToInt32(Console.ReadLine());
-                        Console.Write("Schrittweite: ");
-                        zahlschritt = Convert.ToInt32(Console.ReadLine());
-
-                        if ((zahlanfang * -1) != zahlanfang)
+                        do
                         {
-                            //zahlanfang *= -1;
-                            Console.WriteLine("\nMinus zahl");
-                        }
+                            Console.Clear();
+                            Console.WriteLine("\t---------- Polynom – Wertetabelle ------------\n");
+                            Console.WriteLine("\t\t\ty(x) = ax²+bx+c \n");
+                            Console.WriteLine("\tBitte gebe einen Buchstaben ein");
+                            Console.WriteLine("\ta) Eingabe der Koeffizienten (a,b,c)");
+                            Console.WriteLine("\tb) Eingabe des Wertebereichs und Schrittweite");
+                            Console.WriteLine("\tc) Ausgab der Wertetabelle (x/y)");
+                            Console.WriteLine("\td) Wertetabelle – Ableitung (x/y')");
+                            Console.WriteLine("\te) Ende");
 
-                        zahlinsgesammt = (zahlanfang * -1) + zahlende;
-                        zahlarray = ((zahlanfang * -1) + zahlende) / zahlschritt + 2;
+                            Console.Write("\nEingabe: ");
+                            eingabe13 = Convert.ToString(Console.ReadLine());
 
-                        int[] zahlx = new int[zahlarray];
-                        string[] zahly = new string[zahlarray];
-
-                        //Console.WriteLine("\n" + zahlinsgesammt + " | " + zahlarray);
-
-                        Console.WriteLine("\n\t x\t | y = a * x² + b * x + c");
-                        for (int i = 0; i <= zahlinsgesammt; i += zahlschritt)
-                        {
-                            arrayzaehler++;
-                            zahlx[arrayzaehler - 1] = zahlanfang + i;
-
-                            if (zahlx[arrayzaehler - 1] < 0)
+                            switch (eingabe13)
                             {
-                                zahly[arrayzaehler - 1] = "y = " + koeffizientA + " * (" + zahlx[arrayzaehler - 1] + ")² + " + koeffizientB + " * (" + zahlx[arrayzaehler - 1] + ") + " + koeffizientC;
-                                Console.WriteLine("\t" + zahlx[arrayzaehler - 1] + "\t | " + zahly[arrayzaehler - 1]);
+                                case "a":
+                                    Console.Clear();
+                                    Console.WriteLine("Bitte gib die Koeffizienten a, b und c ein");
+                                    Console.Write("Koeffizienten a: ");
+                                    koeffizientA = Convert.ToInt32(Console.ReadLine());
+                                    Console.Write("Koeffizienten b: ");
+                                    koeffizientB = Convert.ToInt32(Console.ReadLine());
+                                    Console.Write("Koeffizienten c: ");
+                                    koeffizientC = Convert.ToInt32(Console.ReadLine());
+                                    break;
+
+                                case "b":
+                                    Console.Clear();
+                                    Console.WriteLine("\nBitte gib den Wertebereich und die Schrittweite ein");
+                                    Console.Write("Wertanfang: ");
+                                    zahlanfang = Convert.ToInt32(Console.ReadLine());
+                                    Console.Write("Wertende: ");
+                                    zahlende = Convert.ToInt32(Console.ReadLine());
+                                    Console.Write("Schrittweite: ");
+                                    zahlschritt = Convert.ToInt32(Console.ReadLine());
+
+                                    //if ((zahlanfang * -1) != zahlanfang)
+                                    //{
+                                    //    //zahlanfang *= -1;
+                                    //    //Console.WriteLine("\nMinus zahl");
+                                    //}
+
+                                    zahlinsgesammt = (zahlanfang * -1) + zahlende;
+                                    zahlarray = ((zahlanfang * -1) + zahlende) / zahlschritt + 1;
+
+                                    zahlx = new decimal[zahlarray];
+                                    zahly = new decimal[zahlarray];
+                                    zahlyt = new string[zahlarray];
+
+                                    for (int i = 0; i <= zahlinsgesammt; i += zahlschritt)
+                                    {
+                                        arrayzaehler++;
+                                        zahlx[arrayzaehler - 1] = zahlanfang + i;
+                                        zahly[arrayzaehler - 1] = koeffizientA * (zahlx[arrayzaehler - 1] * zahlx[arrayzaehler - 1]) + koeffizientB * zahlx[arrayzaehler - 1] + koeffizientC;
+
+                                        Console.WriteLine(" " + zahlx[arrayzaehler - 1] + " " + zahly[arrayzaehler - 1]);
+                                    }
+                                    arrayzaehler = 0;
+                                    //Console.WriteLine("\n" + zahlinsgesammt + " | " + zahlarray);
+                                    break;
+
+
+                                case "c":
+                                    Console.Clear();
+                                    Console.WriteLine("\n\t x\t | y = a * x² + b * x + c");
+                                    for (int i = 0; i <= zahlinsgesammt; i += zahlschritt)
+                                    {
+                                        arrayzaehler++;
+                                        zahlx[arrayzaehler - 1] = zahlanfang + i;
+
+                                        if (zahlx[arrayzaehler - 1] < 0)
+                                        {
+                                            zahlyt[arrayzaehler - 1] = "y = " + koeffizientA + " * (" + zahlx[arrayzaehler - 1] + ")² + " + koeffizientB + " * (" + zahlx[arrayzaehler - 1] + ") + " + koeffizientC;
+                                            Console.WriteLine("\t" + zahlx[arrayzaehler - 1] + "\t | " + zahlyt[arrayzaehler - 1]);
+                                        }
+                                        else if (zahlx[arrayzaehler - 1] >= 0)
+                                        {
+                                            zahlyt[arrayzaehler - 1] = "y = " + koeffizientA + " * " + zahlx[arrayzaehler - 1] + "² + " + koeffizientB + " * " + zahlx[arrayzaehler - 1] + " + " + koeffizientC;
+                                            Console.WriteLine("\t" + zahlx[arrayzaehler - 1] + "\t | " + zahlyt[arrayzaehler - 1]);
+                                        }
+                                        arrayzaehler = 0;
+                                    }
+                                    break;
+
+
+                                case "d":
+                                    Console.Clear();
+                                    Console.WriteLine("\n\t x\t | y' = (y₂ - y₁) / (x₂ - x₁)");
+                                    for (int i = 2; i < zahlinsgesammt; i += zahlschritt)
+                                    {
+                                        arrayzaehler++;
+
+                                        ye = zahly[arrayzaehler] - zahly[arrayzaehler - 1];
+                                        xe = zahlx[arrayzaehler] - zahlx[arrayzaehler - 1];
+                                        xye = ye / xe;
+
+                                        zahlyt[arrayzaehler - 1] = "y' = (" + zahly[arrayzaehler] + "₂ - " + zahly[arrayzaehler - 1] + "₁) / (" + zahlx[arrayzaehler] + "₂ - " + zahlx[arrayzaehler - 1] + "₁) " + " = " + xye;
+
+                                        Console.WriteLine("\t" + zahlx[arrayzaehler - 1] + "\t | " + zahlyt[arrayzaehler - 1]);
+                                    }
+                                    arrayzaehler = 0;
+                                    break;
+
+                                case "e":
+                                    break;
+
+                                default:
+                                    Console.WriteLine("Wrong Letter");
+                                    break;
                             }
-                            else if (zahlx[arrayzaehler - 1] >= 0)
-                            {
-                                zahly[arrayzaehler - 1] = "y = " + koeffizientA + " * " + zahlx[arrayzaehler - 1] + "² + " + koeffizientB + " * " + zahlx[arrayzaehler - 1] + " + " + koeffizientC;
-                                Console.WriteLine("\t" + zahlx[arrayzaehler - 1] + "\t | " + zahly[arrayzaehler - 1]);
-                            }
-                        }
-                        
-                        Console.WriteLine("\n\t x\t | y' = (y₂ - y₁) / (x₂ - x₁) ");
-                        for (int i = 0; i <= zahlx.Length; i += zahlschritt)
-                        {
-                            zahlx[i] = zahlanfang + i;
-
-                            zahly[i] = "y' = (" + i + "₂ - " + i + 1 + "₁) / (" + i + 2 + "₂ - " + i + 3 + "₁) ";
-
-                            Console.WriteLine("\t" + zahlx[i] + "\t | " + zahly[i]);
-                        }
-
+                            Console.ReadKey();
+                        } while (eingabe13 != "e");
                         break;
 
                     case "end":
@@ -329,10 +370,8 @@ namespace Schleifen_Uebungen
                         Console.WriteLine("Fehler 404 Programm Not Found");
                         break;
                 }
-
                 //Task.Delay(2000).Wait(); //Funktion um automatisches weiterlaufen des Codes zu garantieren (Nur zu Testen da)
                 Console.ReadKey();
-
             } while (eingabe != "end");
         }
     }
