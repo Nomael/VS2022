@@ -13,16 +13,36 @@ namespace Schleifen_Uebungen
     {
         static void Main(string[] args)
         {
+            // Loding Screen
+            Random rnd = new Random();
+            int loadingscreenset = rnd.Next(3,8);
+            bool loadingscreen = false;
+
             //Menu
-            string eingabe;
+            string eingabe = " ";
 
             do
             {
-                // Die aufgaben sind mit den Nummern der Cases Verknüpft
+                // Die Aufgaben sind mit den Nummern der Cases Verknüpft
+                Console.Clear();
+                Console.Title = "Schleifen Übungen";
+                Console.Write("Loading Menu ");
+                if (loadingscreen == true)
+                {
+                    for (int i = 0; i < loadingscreenset; i++)
+                    {
+                        Console.Write(". ");
+                        Task.Delay(1000).Wait();
+                    }
+                    loadingscreen = false;
+                    Console.Write("Loading Complete ");
+                    Task.Delay(1000).Wait();
+                }
+
                 Console.Clear();
                 Console.WriteLine("Schleifen Übungen (by Noel Malchow)");
                 Console.WriteLine("---------------------");
-                Console.WriteLine("Bitte gebe die Nummer der jeweiligen Aufgabe ein\n");
+                Console.WriteLine("Bitte gebe die Nummer der jeweiligen Aufgabe ein");
                 Console.WriteLine("(3) Ungerade Zahlen Rechner");
                 Console.WriteLine("(4) Umgekehrte * Dreieck");
                 Console.WriteLine("(4.1) * Dreieck");
@@ -33,7 +53,10 @@ namespace Schleifen_Uebungen
                 Console.WriteLine("---------------------");
                 Console.WriteLine("(end) Ende");
 
-                eingabe = Convert.ToString(Console.ReadLine());
+                if (loadingscreen == false)
+                {
+                    eingabe = Convert.ToString(Console.ReadLine());
+                }
 
                 switch (eingabe)
                 {
@@ -199,17 +222,42 @@ namespace Schleifen_Uebungen
                         break;
 
                     case "13": // Aufgabe 13: Polynom – Wertetabelle
+                        string eingabe13;
+
                         int koeffizientA;
                         int koeffizientB;
                         int koeffizientC;
+
                         int zahlanfang;
                         int zahlende;
                         int zahlschritt;
                         int zahlinsgesammt;
-                        int zahlx;
-                        int zahly;
+                        int zahlarray;
+                        int arrayzaehler = 0;
+
+                        int[] y1;
+                        int[] y2;
+                        int[] x1;
+                        int[] x2;
+                        int[] yze;
 
                         Console.Clear();
+
+                        Console.WriteLine("\t---------- Polynom – Wertetabelle ------------\n");
+                        Console.WriteLine("y(x) = ax²+bx+c \n");
+                        Console.WriteLine("Bitte gebe einen Buchstaben ein");
+                        Console.WriteLine("a) Eingabe der Koeffizienten (a,b,c)");
+                        Console.WriteLine("(4) Umgekehrte * Dreieck");
+                        Console.WriteLine("(4.1) * Dreieck");
+                        Console.WriteLine("(5) n Fakultät");
+                        Console.WriteLine("(6) Potenz Rechner");
+                        Console.WriteLine("(9) 6er Zähler (Eine Schleife und 2 Schleifen)");
+                        Console.WriteLine("(13) Polynom – Wertetabelle");
+                        Console.WriteLine("---------------------");
+                        Console.WriteLine("(end) Ende");
+
+                        eingabe13 = Convert.ToString(Console.ReadLine());
+
                         Console.WriteLine("Bitte gib die Koeffizienten a, b und c ein");
                         Console.Write("Koeffizienten a: ");
                         koeffizientA = Convert.ToInt32(Console.ReadLine());
@@ -218,7 +266,7 @@ namespace Schleifen_Uebungen
                         Console.Write("Koeffizienten c: ");
                         koeffizientC = Convert.ToInt32(Console.ReadLine());
 
-                        Console.WriteLine("Bitte gib den Wertebereich und die Schrittweite ein");
+                        Console.WriteLine("\nBitte gib den Wertebereich und die Schrittweite ein");
                         Console.Write("Wertanfang: ");
                         zahlanfang = Convert.ToInt32(Console.ReadLine());
                         Console.Write("Wertende: ");
@@ -226,10 +274,47 @@ namespace Schleifen_Uebungen
                         Console.Write("Schrittweite: ");
                         zahlschritt = Convert.ToInt32(Console.ReadLine());
 
-                        zahlinsgesammt = (zahlanfang *-1);
+                        if ((zahlanfang * -1) != zahlanfang)
+                        {
+                            //zahlanfang *= -1;
+                            Console.WriteLine("\nMinus zahl");
+                        }
 
-                        Console.Write(" x | y= x²");
-                        Console.Write(" " + zahlx + " | " + zahly);
+                        zahlinsgesammt = (zahlanfang * -1) + zahlende;
+                        zahlarray = ((zahlanfang * -1) + zahlende) / zahlschritt + 2;
+
+                        int[] zahlx = new int[zahlarray];
+                        string[] zahly = new string[zahlarray];
+
+                        //Console.WriteLine("\n" + zahlinsgesammt + " | " + zahlarray);
+
+                        Console.WriteLine("\n\t x\t | y = a * x² + b * x + c");
+                        for (int i = 0; i <= zahlinsgesammt; i += zahlschritt)
+                        {
+                            arrayzaehler++;
+                            zahlx[arrayzaehler - 1] = zahlanfang + i;
+
+                            if (zahlx[arrayzaehler - 1] < 0)
+                            {
+                                zahly[arrayzaehler - 1] = "y = " + koeffizientA + " * (" + zahlx[arrayzaehler - 1] + ")² + " + koeffizientB + " * (" + zahlx[arrayzaehler - 1] + ") + " + koeffizientC;
+                                Console.WriteLine("\t" + zahlx[arrayzaehler - 1] + "\t | " + zahly[arrayzaehler - 1]);
+                            }
+                            else if (zahlx[arrayzaehler - 1] >= 0)
+                            {
+                                zahly[arrayzaehler - 1] = "y = " + koeffizientA + " * " + zahlx[arrayzaehler - 1] + "² + " + koeffizientB + " * " + zahlx[arrayzaehler - 1] + " + " + koeffizientC;
+                                Console.WriteLine("\t" + zahlx[arrayzaehler - 1] + "\t | " + zahly[arrayzaehler - 1]);
+                            }
+                        }
+                        
+                        Console.WriteLine("\n\t x\t | y' = (y₂ - y₁) / (x₂ - x₁) ");
+                        for (int i = 0; i <= zahlx.Length; i += zahlschritt)
+                        {
+                            zahlx[i] = zahlanfang + i;
+
+                            zahly[i] = "y' = (" + i + "₂ - " + i + 1 + "₁) / (" + i + 2 + "₂ - " + i + 3 + "₁) ";
+
+                            Console.WriteLine("\t" + zahlx[i] + "\t | " + zahly[i]);
+                        }
 
                         break;
 
