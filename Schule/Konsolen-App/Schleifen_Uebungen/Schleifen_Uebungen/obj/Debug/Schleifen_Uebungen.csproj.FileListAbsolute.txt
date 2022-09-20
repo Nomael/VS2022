@@ -6,3 +6,11 @@ C:\Users\noelm\Documents\GitHub\VS2022\Schule\Schleifen_Uebungen\Schleifen_Uebun
 C:\Users\noelm\Documents\GitHub\VS2022\Schule\Schleifen_Uebungen\Schleifen_Uebungen\obj\Debug\Schleifen_Uebungen.csproj.CoreCompileInputs.cache
 C:\Users\noelm\Documents\GitHub\VS2022\Schule\Schleifen_Uebungen\Schleifen_Uebungen\obj\Debug\Schleifen_Uebungen.exe
 C:\Users\noelm\Documents\GitHub\VS2022\Schule\Schleifen_Uebungen\Schleifen_Uebungen\obj\Debug\Schleifen_Uebungen.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Schleifen_Uebungen\Schleifen_Uebungen\bin\Debug\Schleifen_Uebungen.exe.config
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Schleifen_Uebungen\Schleifen_Uebungen\bin\Debug\Schleifen_Uebungen.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Schleifen_Uebungen\Schleifen_Uebungen\bin\Debug\Schleifen_Uebungen.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Schleifen_Uebungen\Schleifen_Uebungen\obj\Debug\Schleifen_Uebungen.csproj.AssemblyReference.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Schleifen_Uebungen\Schleifen_Uebungen\obj\Debug\Schleifen_Uebungen.csproj.SuggestedBindingRedirects.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Schleifen_Uebungen\Schleifen_Uebungen\obj\Debug\Schleifen_Uebungen.csproj.CoreCompileInputs.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Schleifen_Uebungen\Schleifen_Uebungen\obj\Debug\Schleifen_Uebungen.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Schleifen_Uebungen\Schleifen_Uebungen\obj\Debug\Schleifen_Uebungen.pdb

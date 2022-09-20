@@ -155,7 +155,7 @@ namespace Schleifen_Uebungen
 
                     case "6": // Aufgabe 6: Potenz Rechner
                         int zahl6;
-                        int sum6 = 1;
+                        decimal sum6 = 1;
                         int potenz6;
 
                         Console.Clear();
@@ -294,15 +294,15 @@ namespace Schleifen_Uebungen
                                     zahly = new decimal[zahlarray];
                                     zahlyt = new string[zahlarray];
 
-                                    for (int i = 0; i <= zahlinsgesammt; i += zahlschritt)
-                                    {
-                                        arrayzaehler++;
-                                        zahlx[arrayzaehler - 1] = zahlanfang + i;
-                                        zahly[arrayzaehler - 1] = koeffizientA * (zahlx[arrayzaehler - 1] * zahlx[arrayzaehler - 1]) + koeffizientB * zahlx[arrayzaehler - 1] + koeffizientC;
+                                    //for (int i = 0; i <= zahlinsgesammt; i += zahlschritt)
+                                    //{
+                                    //    arrayzaehler++;
+                                    //    zahlx[arrayzaehler - 1] = zahlanfang + i;
+                                    //    zahly[arrayzaehler - 1] = koeffizientA * (zahlx[arrayzaehler - 1] * zahlx[arrayzaehler - 1]) + koeffizientB * zahlx[arrayzaehler - 1] + koeffizientC;
 
-                                        Console.WriteLine(" " + zahlx[arrayzaehler - 1] + " " + zahly[arrayzaehler - 1]);
-                                    }
-                                    arrayzaehler = 0;
+                                    //    //Console.WriteLine(" " + zahlx[arrayzaehler - 1] + " " + zahly[arrayzaehler - 1]);
+                                    //}
+                                    //arrayzaehler = 0;
                                     //Console.WriteLine("\n" + zahlinsgesammt + " | " + zahlarray);
                                     break;
 
@@ -314,28 +314,29 @@ namespace Schleifen_Uebungen
                                     {
                                         arrayzaehler++;
                                         zahlx[arrayzaehler - 1] = zahlanfang + i;
+                                        zahly[arrayzaehler - 1] = koeffizientA * (zahlx[arrayzaehler - 1] * zahlx[arrayzaehler - 1]) + koeffizientB * zahlx[arrayzaehler - 1] + koeffizientC;
 
                                         if (zahlx[arrayzaehler - 1] < 0)
                                         {
                                             zahlyt[arrayzaehler - 1] = "y = " + koeffizientA + " * (" + zahlx[arrayzaehler - 1] + ")² + " + koeffizientB + " * (" + zahlx[arrayzaehler - 1] + ") + " + koeffizientC;
-                                            Console.WriteLine("\t" + zahlx[arrayzaehler - 1] + "\t | " + zahlyt[arrayzaehler - 1]);
+                                            Console.WriteLine("\t" + zahlx[arrayzaehler - 1] + "\t | " + zahlyt[arrayzaehler - 1] + " = " + zahly[arrayzaehler - 1]);
                                         }
                                         else if (zahlx[arrayzaehler - 1] >= 0)
                                         {
                                             zahlyt[arrayzaehler - 1] = "y = " + koeffizientA + " * " + zahlx[arrayzaehler - 1] + "² + " + koeffizientB + " * " + zahlx[arrayzaehler - 1] + " + " + koeffizientC;
-                                            Console.WriteLine("\t" + zahlx[arrayzaehler - 1] + "\t | " + zahlyt[arrayzaehler - 1]);
+                                            Console.WriteLine("\t" + zahlx[arrayzaehler - 1] + "\t | " + zahlyt[arrayzaehler - 1] + " = " + zahly[arrayzaehler - 1]);
                                         }
-                                        arrayzaehler = 0;
                                     }
+                                    arrayzaehler = 0;
                                     break;
-
 
                                 case "d":
                                     Console.Clear();
                                     Console.WriteLine("\n\t x\t | y' = (y₂ - y₁) / (x₂ - x₁)");
-                                    for (int i = 2; i < zahlinsgesammt; i += zahlschritt)
+                                    for (int i = 0; i < zahlinsgesammt; i += zahlschritt)
                                     {
                                         arrayzaehler++;
+                                        zahly[arrayzaehler - 1] = koeffizientA * (zahlx[arrayzaehler - 1] * zahlx[arrayzaehler - 1]) + koeffizientB * zahlx[arrayzaehler - 1] + koeffizientC;
 
                                         ye = zahly[arrayzaehler] - zahly[arrayzaehler - 1];
                                         xe = zahlx[arrayzaehler] - zahlx[arrayzaehler - 1];
