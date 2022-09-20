@@ -333,18 +333,29 @@ namespace Schleifen_Uebungen
                                 case "d":
                                     Console.Clear();
                                     Console.WriteLine("\n\t x\t | y' = (y₂ - y₁) / (x₂ - x₁)");
-                                    for (int i = 0; i < zahlinsgesammt; i += zahlschritt)
+                                    for (int i = 2; i < zahlinsgesammt; i += zahlschritt)
                                     {
                                         arrayzaehler++;
+                                        zahlx[arrayzaehler - 1] = zahlanfang + i;
                                         zahly[arrayzaehler - 1] = koeffizientA * (zahlx[arrayzaehler - 1] * zahlx[arrayzaehler - 1]) + koeffizientB * zahlx[arrayzaehler - 1] + koeffizientC;
 
                                         ye = zahly[arrayzaehler] - zahly[arrayzaehler - 1];
                                         xe = zahlx[arrayzaehler] - zahlx[arrayzaehler - 1];
                                         xye = ye / xe;
 
-                                        zahlyt[arrayzaehler - 1] = "y' = (" + zahly[arrayzaehler] + "₂ - " + zahly[arrayzaehler - 1] + "₁) / (" + zahlx[arrayzaehler] + "₂ - " + zahlx[arrayzaehler - 1] + "₁) " + " = " + xye;
+                                        if (zahlx[arrayzaehler - 1] < 0)
+                                        {
+                                            zahlyt[arrayzaehler - 1] = "y' = (" + zahly[arrayzaehler] + "₂ - " + zahly[arrayzaehler - 1] + "₁) / (" + zahlx[arrayzaehler] + "₂ - (" + zahlx[arrayzaehler - 1] + ")₁) " + " = " + xye;
+                                            Console.WriteLine("\t" + zahlx[arrayzaehler - 1] + "\t | " + zahlyt[arrayzaehler - 1]);
+                                        }
+                                        else if (zahlx[arrayzaehler - 1] >= 0)
+                                        {
+                                            zahlyt[arrayzaehler - 1] = "y' = (" + zahly[arrayzaehler] + "₂ - " + zahly[arrayzaehler - 1] + "₁) / (" + zahlx[arrayzaehler] + "₂ - " + zahlx[arrayzaehler - 1] + "₁) " + " = " + xye;
+                                            Console.WriteLine("\t" + zahlx[arrayzaehler - 1] + "\t | " + zahlyt[arrayzaehler - 1]);
+                                        }
 
-                                        Console.WriteLine("\t" + zahlx[arrayzaehler - 1] + "\t | " + zahlyt[arrayzaehler - 1]);
+                                        //zahlyt[arrayzaehler - 1] = "y' = (" + zahly[arrayzaehler] + "₂ - " + zahly[arrayzaehler - 1] + "₁) / (" + zahlx[arrayzaehler] + "₂ - " + zahlx[arrayzaehler - 1] + "₁) " + " = " + xye;
+                                        //Console.WriteLine("\t" + zahlx[arrayzaehler - 1] + "\t | " + zahlyt[arrayzaehler - 1]);
                                     }
                                     arrayzaehler = 0;
                                     break;
