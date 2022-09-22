@@ -62,24 +62,18 @@ namespace Schleifen_Uebungen
                 switch (eingabe)
                 {
                     case "3": // Aufgabe 3: Ungerade Zahlen Rechner
-                        int zaehler = 0;
-                        int speicher = 0;
-                        int formax = 10;
+                        int endzahl = 0;
+                        decimal speicher = 0;
 
                         Console.Clear();
-                        Console.Write("Bitte gebe bis zu ");
-                        Console.ForegroundColor = ConsoleColor.Green;
-                        Console.Write(formax);
-                        Console.ResetColor();
-                        Console.WriteLine(" mal eine Zahle ein");
-
-                        for (int i = 1; i <= formax; i += 1)
+                        Console.WriteLine("Bitte gib eine Endzahl ein");
+                        Console.Write("Endzahl: ");
+                        endzahl = Convert.ToInt32(Console.ReadLine());
+                        for (int i = 1; i <= endzahl; i += 1)
                         {
-                            Console.Write("Zahl " + i + ": ");
-                            zaehler = Convert.ToInt32(Console.ReadLine());
-                            if (zaehler % 2 == 1)
+                            if (i % 2 == 1)
                             {
-                                speicher += zaehler;
+                                speicher += i;
                                 //Console.WriteLine("Ungerade");
                             }
                             //else
