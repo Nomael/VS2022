@@ -140,7 +140,7 @@ namespace Schleifen_Uebungen
                             {
                                 Console.Write(zahl[i] + " = " + fakultaet5);
                             }
-                            if (i < zahl.Length - 2)
+                            if (i < zahl.Length - 1)
                             {
                                 Console.Write(zahl[i] + " * ");
                             }
@@ -282,7 +282,7 @@ namespace Schleifen_Uebungen
                                     //}
 
                                     zahlinsgesammt = (zahlanfang * -1) + zahlende;
-                                    zahlarray = ((zahlanfang * -1) + zahlende) / zahlschritt + 1;
+                                    zahlarray = ((zahlanfang * -1) + zahlende) / zahlschritt + 2;
 
                                     zahlx = new decimal[zahlarray];
                                     zahly = new decimal[zahlarray];
@@ -327,7 +327,7 @@ namespace Schleifen_Uebungen
                                 case "d":
                                     Console.Clear();
                                     Console.WriteLine("\n\t x\t | y' = (y₂ - y₁) / (x₂ - x₁)");
-                                    for (int i = 2; i < zahlinsgesammt; i += zahlschritt)
+                                    for (int i = 0; i <= zahlinsgesammt; i += zahlschritt)
                                     {
                                         arrayzaehler++;
                                         zahlx[arrayzaehler - 1] = zahlanfang + i;
