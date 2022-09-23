@@ -1,0 +1,8 @@
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Methoden_Test\Methoden_Test\bin\Debug\Methoden_Test.exe.config
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Methoden_Test\Methoden_Test\bin\Debug\Methoden_Test.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Methoden_Test\Methoden_Test\bin\Debug\Methoden_Test.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Methoden_Test\Methoden_Test\obj\Debug\Methoden_Test.csproj.AssemblyReference.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Methoden_Test\Methoden_Test\obj\Debug\Methoden_Test.csproj.SuggestedBindingRedirects.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Methoden_Test\Methoden_Test\obj\Debug\Methoden_Test.csproj.CoreCompileInputs.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Methoden_Test\Methoden_Test\obj\Debug\Methoden_Test.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Methoden_Test\Methoden_Test\obj\Debug\Methoden_Test.pdb
