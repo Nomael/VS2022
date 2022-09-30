@@ -47,7 +47,12 @@ namespace Stringverarbeitung
             dateiname = Convert.ToString(Console.ReadLine());
             string[] neudateiname = dateiname.Split('.');
 
+
             Console.WriteLine("Die Datei Heißt nun " + neudateiname[0] + ".bak");
+            for (int i = 0; i < args.Length; i++)
+            {ghfhgh
+                Console.Write("und hat die Parameter: " + args[i]);
+            }
         }
     }
 }
