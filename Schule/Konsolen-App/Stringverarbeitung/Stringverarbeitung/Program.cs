@@ -14,7 +14,9 @@ namespace Stringverarbeitung
         {
             //umgedrehte_zeichenkette();
             //namen_einlesen();
-            dateinamen(args);
+            //dateinamen(args);
+            toplvldomain();
+
 
             Console.ReadKey();
         }
@@ -42,17 +44,50 @@ namespace Stringverarbeitung
 
         static void dateinamen(string[] args)
         {
-            string dateiname = "TestProg.exe";
+            string dateiname;
             Console.Write("Programm: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
             dateiname = Convert.ToString(Console.ReadLine());
+            Console.ResetColor();
             string[] neudateiname = dateiname.Split('.');
+            neudateiname[0] = neudateiname[0] + ".bak";
 
+            Console.Write("Die Datei Heißt nun ");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write(neudateiname[0]);
+            Console.ResetColor();
 
-            Console.WriteLine("Die Datei Heißt nun " + neudateiname[0] + ".bak");
-            for (int i = 0; i < args.Length; i++)
-            {ghfhgh
-                Console.Write("und hat die Parameter: " + args[i]);
+            if (args.Length > 0)
+            {
+                Console.WriteLine(" mit diesen Parametern:\n");
+                Console.ForegroundColor = ConsoleColor.Green;
+                for (int i = 0; i < args.Length; i++)
+                {
+                    Console.WriteLine("Parameter " + i + ": " + args[i]);
+                }
+                Console.ResetColor();
             }
+        }
+
+        static void toplvldomain()
+        {
+            string domain;
+            Console.WriteLine("Bitte gib eine Domain ein");
+            Console.Write("URL: ");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            domain = Convert.ToString(Console.ReadLine());
+            Console.ResetColor();
+            string[] toplvldomain = domain.Split('/');
+
+            if (toplvldomain[0] == "http:")
+            {
+                Console.WriteLine(toplvldomain[0] + "//" + toplvldomain[2]);
+            }
+            if (toplvldomain[0] == "https:")
+            {
+                Console.WriteLine(toplvldomain[0] + "//" + toplvldomain[2]);
+            }
+            
         }
     }
 }
