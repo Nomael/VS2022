@@ -1,8 +1,0 @@
-C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Stringverarbeitung_Aufgabe3\Stringverarbeitung_Aufgabe3\bin\Debug\Stringverarbeitung_Aufgabe3.exe.config
-C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Stringverarbeitung_Aufgabe3\Stringverarbeitung_Aufgabe3\bin\Debug\Stringverarbeitung_Aufgabe3.exe
-C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Stringverarbeitung_Aufgabe3\Stringverarbeitung_Aufgabe3\bin\Debug\Stringverarbeitung_Aufgabe3.pdb
-C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Stringverarbeitung_Aufgabe3\Stringverarbeitung_Aufgabe3\obj\Debug\Stringverarbeitung_Aufgabe3.csproj.AssemblyReference.cache
-C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Stringverarbeitung_Aufgabe3\Stringverarbeitung_Aufgabe3\obj\Debug\Stringverarbeitung_Aufgabe3.csproj.SuggestedBindingRedirects.cache
-C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Stringverarbeitung_Aufgabe3\Stringverarbeitung_Aufgabe3\obj\Debug\Stringverarbeitung_Aufgabe3.csproj.CoreCompileInputs.cache
-C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Stringverarbeitung_Aufgabe3\Stringverarbeitung_Aufgabe3\obj\Debug\Stringverarbeitung_Aufgabe3.exe
-C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Stringverarbeitung_Aufgabe3\Stringverarbeitung_Aufgabe3\obj\Debug\Stringverarbeitung_Aufgabe3.pdb
