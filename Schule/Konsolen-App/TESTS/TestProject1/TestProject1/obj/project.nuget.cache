@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wz+Dwj4bc4xylgtM9j/6N+iq/AonLN7o6kvixIGSLrKMLEZylA8/w14g8iBbx/s68/hu3BupMXFmCnvyBgVgXw==",
+  "dgSpecHash": "g4oGXdhrNyJF485S8+oUVXADDa5kziXNVu317VN1X0LXEfpwnDD3hODptOGjvlMhdFd6mtr0GB7v8L52W36Y6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\noelm\\Documents\\GitHub\\VS2022\\Schule\\TestProject1\\TestProject1\\TestProject1.csproj",
+  "projectFilePath": "C:\\Users\\noelm\\Documents\\GitHub\\VS2022\\Schule\\Konsolen-App\\TESTS\\TestProject1\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\noelm\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\noelm\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

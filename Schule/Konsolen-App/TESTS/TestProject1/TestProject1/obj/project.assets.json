@@ -3973,11 +3973,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\noelm\\Documents\\GitHub\\VS2022\\Schule\\TestProject1\\TestProject1\\TestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\noelm\\Documents\\GitHub\\VS2022\\Schule\\Konsolen-App\\TESTS\\TestProject1\\TestProject1\\TestProject1.csproj",
       "projectName": "TestProject1",
-      "projectPath": "C:\\Users\\noelm\\Documents\\GitHub\\VS2022\\Schule\\TestProject1\\TestProject1\\TestProject1.csproj",
+      "projectPath": "C:\\Users\\noelm\\Documents\\GitHub\\VS2022\\Schule\\Konsolen-App\\TESTS\\TestProject1\\TestProject1\\TestProject1.csproj",
       "packagesPath": "C:\\Users\\noelm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\noelm\\Documents\\GitHub\\VS2022\\Schule\\TestProject1\\TestProject1\\obj\\",
+      "outputPath": "C:\\Users\\noelm\\Documents\\GitHub\\VS2022\\Schule\\Konsolen-App\\TESTS\\TestProject1\\TestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\noelm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4043,7 +4043,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
