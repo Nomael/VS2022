@@ -63,7 +63,7 @@ namespace Stringverarbeitung
                         txtcolor("ERROR\t\tERROR\t\tERROR", "DarkYellow");
                         Console.WriteLine("\n\nFehler 404 Programm Not Found");
 
-                        progterm(true, 2000);
+                        progreload(true, 2000);
                         break;
                 }
 
@@ -176,7 +176,7 @@ namespace Stringverarbeitung
                 Console.Clear();
                 txtcolor("ERROR No valid Domain or just Toplevel Domain Detectet\n\n Reloading The Programm now\n", "DarkYellow");
 
-                progterm(true, 2000);
+                progreload(true, 2000);
             }
 
             if (toplvldomain[0] == "http:")
@@ -258,7 +258,7 @@ namespace Stringverarbeitung
         /// </summary>
         /// <param name="pActive">Tests if the programm should be Reloaded</param>
         /// <param name="pTermWait">Time to Wait before the Reload initialize</param>
-        static void progterm(bool pActive, int pTermWait)
+        static void progreload(bool pActive, int pTermWait)
         {
             if (pActive)
             {
