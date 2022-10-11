@@ -28,6 +28,7 @@ namespace Stringverarbeitung
                 Console.WriteLine("(4) Toplevel Domain herausfinden");
                 Console.WriteLine("(5) Quersumme berechnen");
                 Console.WriteLine("---------------------");
+                Console.WriteLine("(reload) Restart the Programm");
                 Console.WriteLine("(end) Ende");
 
                 Console.Write("\nAufgabe: ");
@@ -58,10 +59,24 @@ namespace Stringverarbeitung
                     case "end":
                         break;
 
+                    case "reload":
+                        Console.Clear();
+                        txtcolor("Reloading the Programm ", "DarkYellow", "Write");
+                        for (int i = 0; i < 3; i++)
+                        {
+                            txtcolor(". ", "Cyan", "Write");
+                            Task.Delay(1000).Wait();
+                        }
+
+                        txtcolor("Reloading now", "Green", "WriteLine");
+
+                        progreload(true, 1000);
+                        break;
+
                     default:
                         Console.Clear();
-                        txtcolor("ERROR\t\tERROR\t\tERROR", "DarkYellow");
-                        Console.WriteLine("\n\nFehler 404 Programm Not Found");
+                        txtcolor("ERROR\t\tERROR\t\tERROR", "DarkYellow", "WriteLine");
+                        Console.WriteLine("\nFehler 404 Programm Not Found");
 
                         progreload(true, 2000);
                         break;
@@ -115,9 +130,9 @@ namespace Stringverarbeitung
             nachname = zerlegung[1];
 
             Console.Write("Vorname: ");
-            txtcolor(vorname, "Green");
+            txtcolor(vorname, "Green", "Write");
             Console.Write(" Nachname: ");
-            txtcolor(nachname, "Green");
+            txtcolor(nachname, "Green", "Write");
         }
 
         // Aufgabe 3
@@ -139,7 +154,7 @@ namespace Stringverarbeitung
             neudateiname[0] = neudateiname[0] + ".bak";
 
             Console.Write("Die Datei Heißt nun ");
-            txtcolor(Convert.ToString(neudateiname[0]), "Yellow");
+            txtcolor(Convert.ToString(neudateiname[0]), "Yellow", "Write");
 
             if (args.Length > 0)
             {
@@ -150,6 +165,10 @@ namespace Stringverarbeitung
                     Console.WriteLine("Parameter " + i + ": " + args[i]);
                 }
                 Console.ResetColor();
+            }
+            else
+            {
+                txtcolor("Bitte in der Console über den Debug ordner die CMD ausführen um Argumente mit auszugeben", "DarkYellow", "Write");
             }
         }
 
@@ -174,7 +193,7 @@ namespace Stringverarbeitung
             if (toplvldomain.Length < 2)
             {
                 Console.Clear();
-                txtcolor("ERROR No valid Domain or just Toplevel Domain Detectet\n\n Reloading The Programm now\n", "DarkYellow");
+                txtcolor("ERROR No valid Domain or just Toplevel Domain Detectet\n\n Reloading The Programm now", "DarkYellow", "Write");
 
                 progreload(true, 2000);
             }
@@ -182,17 +201,17 @@ namespace Stringverarbeitung
             if (toplvldomain[0] == "http:")
             {
                 Console.Write("\nToplevel Domain: ");
-                txtcolor(toplvldomain[0] + "//" + toplvldomain[2], "Green");
+                txtcolor(toplvldomain[0] + "//" + toplvldomain[2], "Green", "Write");
             }
             if (toplvldomain[0] == "https:")
             {
                 Console.Write("\nToplevel Domain: ");
-                txtcolor(toplvldomain[0] + "//" + toplvldomain[2], "Green");
+                txtcolor(toplvldomain[0] + "//" + toplvldomain[2], "Green", "Write");
             }
             else if (toplvldomain[0] != "http:" && toplvldomain.Length > 1)
             {
                 Console.Write("\nToplevel Domain: ");
-                txtcolor("http://" + toplvldomain[0], "Green");
+                txtcolor("http://" + toplvldomain[0], "Green", "Write");
             }
 
         }
@@ -214,7 +233,7 @@ namespace Stringverarbeitung
             Console.ResetColor();
 
             Console.Write("\n\nDie Quersumme von ");
-            txtcolor(zahlen, "Green");
+            txtcolor(zahlen, "Green", "Write");
             Console.Write(" = ");
             Console.ForegroundColor = ConsoleColor.Green;
             for (int i = 0; i < zahlen.Length; i++)
@@ -231,7 +250,7 @@ namespace Stringverarbeitung
                 {
                     Console.ResetColor();
                     Console.Write(" = ");
-                    txtcolor(Convert.ToString(zahlenresult), "Green");
+                    txtcolor(Convert.ToString(zahlenresult), "Green", "Write");
                 }
             }
         }
@@ -245,10 +264,18 @@ namespace Stringverarbeitung
         /// </summary>
         /// <param name="pText">The Text that should be displayed</param>
         /// <param name="pColor">The Color that is changing the Text</param>
-        static void txtcolor(string pText, string pColor)
+        /// <param name="pMode">This changes if it should be a WriteLine or just a Write in the Console</param>
+        static void txtcolor(string pText, string pColor, string pMode)
         {
             Console.ForegroundColor = (ConsoleColor)Enum.Parse(typeof(ConsoleColor), pColor);
-            Console.Write(pText);
+            if (pMode == "Write")
+            {
+                Console.Write(pText);
+            }
+            else if (pMode == "WriteLine")
+            {
+                Console.WriteLine(pText);
+            }
             Console.ResetColor();
         }
 
@@ -257,7 +284,7 @@ namespace Stringverarbeitung
         /// Small Programm to Reload the Console.
         /// </summary>
         /// <param name="pActive">Tests if the programm should be Reloaded</param>
-        /// <param name="pTermWait">Time to Wait before the Reload initialize</param>
+        /// <param name="pTermWait">Time to Wait before the Reload initialize in ms (2000ms = 2sec)</param>
         static void progreload(bool pActive, int pTermWait)
         {
             if (pActive)
