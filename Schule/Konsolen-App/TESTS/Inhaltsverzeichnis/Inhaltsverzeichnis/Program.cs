@@ -24,7 +24,13 @@ namespace Inhaltsverzeichnis
                 Console.WriteLine("---------------------");
                 Console.WriteLine("ENDE");
 
+                Console.Write("\nAnweisung: ");
                 eingabe = Convert.ToString(Console.ReadLine());
+
+                if (eingabe != "ENDE")
+                {
+                    Console.ReadKey();
+                }
 
             } while (eingabe != "ENDE");
 

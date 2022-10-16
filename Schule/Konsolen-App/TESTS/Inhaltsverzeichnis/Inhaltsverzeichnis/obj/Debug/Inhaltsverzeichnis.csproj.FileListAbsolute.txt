@@ -1,0 +1,8 @@
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\TESTS\Inhaltsverzeichnis\Inhaltsverzeichnis\bin\Debug\Inhaltsverzeichnis.exe.config
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\TESTS\Inhaltsverzeichnis\Inhaltsverzeichnis\bin\Debug\Inhaltsverzeichnis.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\TESTS\Inhaltsverzeichnis\Inhaltsverzeichnis\bin\Debug\Inhaltsverzeichnis.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\TESTS\Inhaltsverzeichnis\Inhaltsverzeichnis\obj\Debug\Inhaltsverzeichnis.csproj.AssemblyReference.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\TESTS\Inhaltsverzeichnis\Inhaltsverzeichnis\obj\Debug\Inhaltsverzeichnis.csproj.SuggestedBindingRedirects.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\TESTS\Inhaltsverzeichnis\Inhaltsverzeichnis\obj\Debug\Inhaltsverzeichnis.csproj.CoreCompileInputs.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\TESTS\Inhaltsverzeichnis\Inhaltsverzeichnis\obj\Debug\Inhaltsverzeichnis.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\TESTS\Inhaltsverzeichnis\Inhaltsverzeichnis\obj\Debug\Inhaltsverzeichnis.pdb

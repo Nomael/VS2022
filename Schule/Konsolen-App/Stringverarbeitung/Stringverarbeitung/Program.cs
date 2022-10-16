@@ -82,7 +82,10 @@ namespace Stringverarbeitung
                         break;
                 }
 
-                Console.ReadKey();
+                if (eingabe != "end")
+                {
+                    Console.ReadKey();
+                }
 
             } while (eingabe != "end");
         }
@@ -190,13 +193,13 @@ namespace Stringverarbeitung
 
             string[] toplvldomain = domain.Split('/');
 
-            if (toplvldomain.Length < 2)
-            {
-                Console.Clear();
-                txtcolor("ERROR No valid Domain or just Toplevel Domain Detectet\n\n Reloading The Programm now", "DarkYellow", "Write");
+            //if (toplvldomain.Length < 2)
+            //{
+            //    Console.Clear();
+            //    txtcolor("ERROR No valid Domain or just Toplevel Domain Detectet\n\n Reloading The Programm now", "DarkYellow", "Write");
 
-                progreload(true, 2000);
-            }
+            //    progreload(true, 4000);
+            //}
 
             if (toplvldomain[0] == "http:")
             {
@@ -208,7 +211,7 @@ namespace Stringverarbeitung
                 Console.Write("\nToplevel Domain: ");
                 txtcolor(toplvldomain[0] + "//" + toplvldomain[2], "Green", "Write");
             }
-            else if (toplvldomain[0] != "http:" && toplvldomain.Length > 1)
+            else if (toplvldomain[0] != "http:") //&& toplvldomain.Length > 1
             {
                 Console.Write("\nToplevel Domain: ");
                 txtcolor("http://" + toplvldomain[0], "Green", "Write");
