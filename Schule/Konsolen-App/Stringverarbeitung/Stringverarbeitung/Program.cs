@@ -68,7 +68,29 @@ namespace Stringverarbeitung
                             Task.Delay(1000).Wait();
                         }
 
-                        txtcolor("Reloading now", "Green", "WriteLine");
+                        for (int i = 0; i < 1; i++)
+                        {
+                            txtcolor("R", "Green", "WriteLine");
+                            Task.Delay(1000).Wait();
+                            txtcolor("e", "Green", "WriteLine");
+                            Task.Delay(1000).Wait();
+                            txtcolor("l", "Green", "WriteLine");
+                            Task.Delay(1000).Wait();
+                            txtcolor("o", "Green", "WriteLine");
+                            Task.Delay(1000).Wait();
+                            txtcolor("a", "Green", "WriteLine");
+                            Task.Delay(1000).Wait();
+                            txtcolor("d", "Green", "WriteLine");
+                            Task.Delay(1000).Wait();
+                            txtcolor("i", "Green", "WriteLine");
+                            Task.Delay(1000).Wait();
+                            txtcolor("n", "Green", "WriteLine");
+                            Task.Delay(1000).Wait();
+                            txtcolor("g", "Green", "WriteLine");
+                            Task.Delay(1000).Wait();
+                            txtcolor(" Now", "Green", "WriteLine");
+                            Task.Delay(1000).Wait();
+                        }
 
                         progreload(true, 1000);
                         break;
@@ -120,15 +142,15 @@ namespace Stringverarbeitung
             string ganzername = "Noel,Malchow";
             string vorname;
             string nachname;
-            string[] zerlegung = ganzername.Split(',');
 
             Console.Clear();
             Console.WriteLine("Bitte gebe einen Vor und Nachnamen ein. Diese sollten mit einem Komma getrennt sein (Max,Mustermann)");
             Console.Write("Vor,Nachname: ");
             Console.ForegroundColor = ConsoleColor.Cyan;
-            ganzername = Console.ReadLine();
+            ganzername = Convert.ToString(Console.ReadLine());
             Console.ResetColor();
 
+            string[] zerlegung = ganzername.Split(',');
             vorname = zerlegung[0];
             nachname = zerlegung[1];
 
