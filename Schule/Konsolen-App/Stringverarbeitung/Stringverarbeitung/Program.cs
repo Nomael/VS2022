@@ -67,30 +67,8 @@ namespace Stringverarbeitung
                             txtcolor(". ", "Cyan", "Write");
                             Task.Delay(1000).Wait();
                         }
-
-                        for (int i = 0; i < 1; i++)
-                        {
-                            txtcolor("R", "Green", "WriteLine");
-                            Task.Delay(1000).Wait();
-                            txtcolor("e", "Green", "WriteLine");
-                            Task.Delay(1000).Wait();
-                            txtcolor("l", "Green", "WriteLine");
-                            Task.Delay(1000).Wait();
-                            txtcolor("o", "Green", "WriteLine");
-                            Task.Delay(1000).Wait();
-                            txtcolor("a", "Green", "WriteLine");
-                            Task.Delay(1000).Wait();
-                            txtcolor("d", "Green", "WriteLine");
-                            Task.Delay(1000).Wait();
-                            txtcolor("i", "Green", "WriteLine");
-                            Task.Delay(1000).Wait();
-                            txtcolor("n", "Green", "WriteLine");
-                            Task.Delay(1000).Wait();
-                            txtcolor("g", "Green", "WriteLine");
-                            Task.Delay(1000).Wait();
-                            txtcolor(" Now", "Green", "WriteLine");
-                            Task.Delay(1000).Wait();
-                        }
+                        txtcolor("Reloading Now", "Green", "WriteLine");
+                         
 
                         progreload(true, 1000);
                         break;
