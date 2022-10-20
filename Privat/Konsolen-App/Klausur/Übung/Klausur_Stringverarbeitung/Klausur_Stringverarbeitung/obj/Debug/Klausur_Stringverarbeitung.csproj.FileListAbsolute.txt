@@ -1,0 +1,8 @@
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Konsolen-App\Klausur\Übung\Klausur_Stringverarbeitung\Klausur_Stringverarbeitung\bin\Debug\Klausur_Stringverarbeitung.exe.config
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Konsolen-App\Klausur\Übung\Klausur_Stringverarbeitung\Klausur_Stringverarbeitung\bin\Debug\Klausur_Stringverarbeitung.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Konsolen-App\Klausur\Übung\Klausur_Stringverarbeitung\Klausur_Stringverarbeitung\bin\Debug\Klausur_Stringverarbeitung.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Konsolen-App\Klausur\Übung\Klausur_Stringverarbeitung\Klausur_Stringverarbeitung\obj\Debug\Klausur_Stringverarbeitung.csproj.AssemblyReference.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Konsolen-App\Klausur\Übung\Klausur_Stringverarbeitung\Klausur_Stringverarbeitung\obj\Debug\Klausur_Stringverarbeitung.csproj.SuggestedBindingRedirects.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Konsolen-App\Klausur\Übung\Klausur_Stringverarbeitung\Klausur_Stringverarbeitung\obj\Debug\Klausur_Stringverarbeitung.csproj.CoreCompileInputs.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Konsolen-App\Klausur\Übung\Klausur_Stringverarbeitung\Klausur_Stringverarbeitung\obj\Debug\Klausur_Stringverarbeitung.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Konsolen-App\Klausur\Übung\Klausur_Stringverarbeitung\Klausur_Stringverarbeitung\obj\Debug\Klausur_Stringverarbeitung.pdb
