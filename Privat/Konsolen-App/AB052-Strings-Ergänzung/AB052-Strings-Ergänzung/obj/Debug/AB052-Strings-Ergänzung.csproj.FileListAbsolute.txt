@@ -1,0 +1,8 @@
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Konsolen-App\AB052-Strings-Ergänzung\AB052-Strings-Ergänzung\obj\Debug\AB052-Strings-Ergänzung.csproj.AssemblyReference.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Konsolen-App\AB052-Strings-Ergänzung\AB052-Strings-Ergänzung\obj\Debug\AB052-Strings-Ergänzung.csproj.SuggestedBindingRedirects.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Konsolen-App\AB052-Strings-Ergänzung\AB052-Strings-Ergänzung\obj\Debug\AB052-Strings-Ergänzung.csproj.CoreCompileInputs.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Konsolen-App\AB052-Strings-Ergänzung\AB052-Strings-Ergänzung\bin\Debug\AB052-Strings-Ergänzung.exe.config
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Konsolen-App\AB052-Strings-Ergänzung\AB052-Strings-Ergänzung\bin\Debug\AB052-Strings-Ergänzung.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Konsolen-App\AB052-Strings-Ergänzung\AB052-Strings-Ergänzung\bin\Debug\AB052-Strings-Ergänzung.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Konsolen-App\AB052-Strings-Ergänzung\AB052-Strings-Ergänzung\obj\Debug\AB052-Strings-Ergänzung.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Privat\Konsolen-App\AB052-Strings-Ergänzung\AB052-Strings-Ergänzung\obj\Debug\AB052-Strings-Ergänzung.pdb

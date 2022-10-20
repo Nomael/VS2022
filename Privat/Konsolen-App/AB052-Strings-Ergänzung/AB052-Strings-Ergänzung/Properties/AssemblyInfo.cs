@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Allgemeine Informationen über eine Assembly werden über die folgenden
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die einer Assembly zugeordnet sind.
-[assembly: AssemblyTitle("Methoden-v4")]
+[assembly: AssemblyTitle("AB052-Strings-Ergänzung")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Methoden-v4")]
+[assembly: AssemblyProduct("AB052-Strings-Ergänzung")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Die folgende GUID bestimmt die ID der Typbibliothek, wenn dieses Projekt für COM verfügbar gemacht wird
-[assembly: Guid("4657eff8-e94c-4662-b89d-6a561ee3bf2b")]
+[assembly: Guid("1cf8a8d6-f214-4a27-bc81-13fa0b172f4a")]
 
 // Versionsinformationen für eine Assembly bestehen aus den folgenden vier Werten:
 //

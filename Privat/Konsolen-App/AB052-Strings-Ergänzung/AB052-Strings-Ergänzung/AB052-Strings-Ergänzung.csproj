@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4657EFF8-E94C-4662-B89D-6A561EE3BF2B}</ProjectGuid>
+    <ProjectGuid>{1CF8A8D6-F214-4A27-BC81-13FA0B172F4A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Methoden_v4</RootNamespace>
-    <AssemblyName>Methoden-v4</AssemblyName>
+    <RootNamespace>AB052_Strings_Ergänzung</RootNamespace>
+    <AssemblyName>AB052-Strings-Ergänzung</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
