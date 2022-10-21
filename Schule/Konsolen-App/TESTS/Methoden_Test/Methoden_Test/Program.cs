@@ -40,14 +40,15 @@ namespace Methoden_Test
             }
         }
 
-        // Mit Rückgabe, Mit Parameter
-        static double RechneQuadrat(double pZahl)
+        // Mit Rückgabe, ohne Parameter
+        static double RechneQuadrat()
         {
 
-            double result = pZahl * pZahl;
+            double result = 1;
             return result;
         }
 
+        // Mit Rückgabe, mit Parameter
         static string ZeichenRate(int pZeichenLaenge)
         {
             string result = "";
