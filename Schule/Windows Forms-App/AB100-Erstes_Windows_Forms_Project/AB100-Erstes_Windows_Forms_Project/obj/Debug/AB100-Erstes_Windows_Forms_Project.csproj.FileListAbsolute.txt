@@ -1,0 +1,11 @@
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\AB100-Erstes_Windows_Forms_Project\AB100-Erstes_Windows_Forms_Project\bin\Debug\AB100-Erstes_Windows_Forms_Project.exe.config
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\AB100-Erstes_Windows_Forms_Project\AB100-Erstes_Windows_Forms_Project\bin\Debug\AB100-Erstes_Windows_Forms_Project.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\AB100-Erstes_Windows_Forms_Project\AB100-Erstes_Windows_Forms_Project\bin\Debug\AB100-Erstes_Windows_Forms_Project.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\AB100-Erstes_Windows_Forms_Project\AB100-Erstes_Windows_Forms_Project\obj\Debug\AB100-Erstes_Windows_Forms_Project.csproj.AssemblyReference.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\AB100-Erstes_Windows_Forms_Project\AB100-Erstes_Windows_Forms_Project\obj\Debug\AB100-Erstes_Windows_Forms_Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\AB100-Erstes_Windows_Forms_Project\AB100-Erstes_Windows_Forms_Project\obj\Debug\AB100_Erstes_Windows_Forms_Project.Form1.resources
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\AB100-Erstes_Windows_Forms_Project\AB100-Erstes_Windows_Forms_Project\obj\Debug\AB100_Erstes_Windows_Forms_Project.Properties.Resources.resources
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\AB100-Erstes_Windows_Forms_Project\AB100-Erstes_Windows_Forms_Project\obj\Debug\AB100-Erstes_Windows_Forms_Project.csproj.GenerateResource.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\AB100-Erstes_Windows_Forms_Project\AB100-Erstes_Windows_Forms_Project\obj\Debug\AB100-Erstes_Windows_Forms_Project.csproj.CoreCompileInputs.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\AB100-Erstes_Windows_Forms_Project\AB100-Erstes_Windows_Forms_Project\obj\Debug\AB100-Erstes_Windows_Forms_Project.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\AB100-Erstes_Windows_Forms_Project\AB100-Erstes_Windows_Forms_Project\obj\Debug\AB100-Erstes_Windows_Forms_Project.pdb
