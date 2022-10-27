@@ -1,0 +1,8 @@
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Moving_Line\Moving_Line\bin\Debug\Moving_Line.exe.config
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Moving_Line\Moving_Line\bin\Debug\Moving_Line.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Moving_Line\Moving_Line\bin\Debug\Moving_Line.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Moving_Line\Moving_Line\obj\Debug\Moving_Line.csproj.AssemblyReference.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Moving_Line\Moving_Line\obj\Debug\Moving_Line.csproj.SuggestedBindingRedirects.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Moving_Line\Moving_Line\obj\Debug\Moving_Line.csproj.CoreCompileInputs.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Moving_Line\Moving_Line\obj\Debug\Moving_Line.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Konsolen-App\Moving_Line\Moving_Line\obj\Debug\Moving_Line.pdb
