@@ -1,0 +1,11 @@
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_Progressbar\Steuerelement_Progressbar\obj\Debug\Steuerelement_Progressbar.csproj.AssemblyReference.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_Progressbar\Steuerelement_Progressbar\obj\Debug\Steuerelement_Progressbar.csproj.SuggestedBindingRedirects.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_Progressbar\Steuerelement_Progressbar\obj\Debug\Steuerelement_Progressbar.Form1.resources
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_Progressbar\Steuerelement_Progressbar\obj\Debug\Steuerelement_Progressbar.Properties.Resources.resources
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_Progressbar\Steuerelement_Progressbar\obj\Debug\Steuerelement_Progressbar.csproj.GenerateResource.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_Progressbar\Steuerelement_Progressbar\obj\Debug\Steuerelement_Progressbar.csproj.CoreCompileInputs.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_Progressbar\Steuerelement_Progressbar\bin\Debug\Steuerelement_Progressbar.exe.config
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_Progressbar\Steuerelement_Progressbar\bin\Debug\Steuerelement_Progressbar.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_Progressbar\Steuerelement_Progressbar\bin\Debug\Steuerelement_Progressbar.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_Progressbar\Steuerelement_Progressbar\obj\Debug\Steuerelement_Progressbar.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_Progressbar\Steuerelement_Progressbar\obj\Debug\Steuerelement_Progressbar.pdb
