@@ -1,0 +1,11 @@
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_MessageBox\Steuerelement_MessageBox\bin\Debug\Steuerelement_MessageBox.exe.config
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_MessageBox\Steuerelement_MessageBox\bin\Debug\Steuerelement_MessageBox.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_MessageBox\Steuerelement_MessageBox\bin\Debug\Steuerelement_MessageBox.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_MessageBox\Steuerelement_MessageBox\obj\Debug\Steuerelement_MessageBox.csproj.AssemblyReference.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_MessageBox\Steuerelement_MessageBox\obj\Debug\Steuerelement_MessageBox.csproj.SuggestedBindingRedirects.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_MessageBox\Steuerelement_MessageBox\obj\Debug\Steuerelement_MessageBox.Form1.resources
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_MessageBox\Steuerelement_MessageBox\obj\Debug\Steuerelement_MessageBox.Properties.Resources.resources
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_MessageBox\Steuerelement_MessageBox\obj\Debug\Steuerelement_MessageBox.csproj.GenerateResource.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_MessageBox\Steuerelement_MessageBox\obj\Debug\Steuerelement_MessageBox.csproj.CoreCompileInputs.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_MessageBox\Steuerelement_MessageBox\obj\Debug\Steuerelement_MessageBox.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\Steuerelement_MessageBox\Steuerelement_MessageBox\obj\Debug\Steuerelement_MessageBox.pdb
