@@ -1,0 +1,11 @@
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Stopuhr\Stopuhr\bin\Debug\Stopuhr.exe.config
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Stopuhr\Stopuhr\bin\Debug\Stopuhr.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Stopuhr\Stopuhr\bin\Debug\Stopuhr.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Stopuhr\Stopuhr\obj\Debug\Stopuhr.csproj.AssemblyReference.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Stopuhr\Stopuhr\obj\Debug\Stopuhr.csproj.SuggestedBindingRedirects.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Stopuhr\Stopuhr\obj\Debug\Stopuhr.Form1.resources
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Stopuhr\Stopuhr\obj\Debug\Stopuhr.Properties.Resources.resources
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Stopuhr\Stopuhr\obj\Debug\Stopuhr.csproj.GenerateResource.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Stopuhr\Stopuhr\obj\Debug\Stopuhr.csproj.CoreCompileInputs.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Stopuhr\Stopuhr\obj\Debug\Stopuhr.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Stopuhr\Stopuhr\obj\Debug\Stopuhr.pdb

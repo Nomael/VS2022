@@ -1,0 +1,11 @@
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\PGB_Test\PGB_Test\bin\Debug\PGB_Test.exe.config
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\PGB_Test\PGB_Test\bin\Debug\PGB_Test.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\PGB_Test\PGB_Test\bin\Debug\PGB_Test.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\PGB_Test\PGB_Test\obj\Debug\PGB_Test.csproj.AssemblyReference.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\PGB_Test\PGB_Test\obj\Debug\PGB_Test.csproj.SuggestedBindingRedirects.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\PGB_Test\PGB_Test\obj\Debug\PGB_Test.Form1.resources
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\PGB_Test\PGB_Test\obj\Debug\PGB_Test.Properties.Resources.resources
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\PGB_Test\PGB_Test\obj\Debug\PGB_Test.csproj.GenerateResource.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\PGB_Test\PGB_Test\obj\Debug\PGB_Test.csproj.CoreCompileInputs.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\PGB_Test\PGB_Test\obj\Debug\PGB_Test.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\PGB_Test\PGB_Test\obj\Debug\PGB_Test.pdb

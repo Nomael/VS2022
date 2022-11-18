@@ -1,0 +1,11 @@
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Knopf Bewegung\Knopf Bewegung\bin\Debug\Knopf Bewegung.exe.config
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Knopf Bewegung\Knopf Bewegung\bin\Debug\Knopf Bewegung.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Knopf Bewegung\Knopf Bewegung\bin\Debug\Knopf Bewegung.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Knopf Bewegung\Knopf Bewegung\obj\Debug\Knopf Bewegung.csproj.AssemblyReference.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Knopf Bewegung\Knopf Bewegung\obj\Debug\Knopf Bewegung.csproj.SuggestedBindingRedirects.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Knopf Bewegung\Knopf Bewegung\obj\Debug\Knopf_Bewegung.Form1.resources
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Knopf Bewegung\Knopf Bewegung\obj\Debug\Knopf_Bewegung.Properties.Resources.resources
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Knopf Bewegung\Knopf Bewegung\obj\Debug\Knopf Bewegung.csproj.GenerateResource.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Knopf Bewegung\Knopf Bewegung\obj\Debug\Knopf Bewegung.csproj.CoreCompileInputs.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Knopf Bewegung\Knopf Bewegung\obj\Debug\Knopf Bewegung.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\Knopf Bewegung\Knopf Bewegung\obj\Debug\Knopf Bewegung.pdb

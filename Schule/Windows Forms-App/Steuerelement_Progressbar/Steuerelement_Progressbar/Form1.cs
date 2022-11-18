@@ -39,8 +39,6 @@ namespace Steuerelement_Progressbar
             {
                 pgb_display.Value = i;
             }
-
-            MessageBox.Show("ffffff");
         }
 
         private void btn_stprog2_Click(object sender, EventArgs e)
