@@ -1,0 +1,11 @@
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\WIndows_Forms_Array\WIndows_Forms_Array\bin\Debug\WIndows_Forms_Array.exe.config
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\WIndows_Forms_Array\WIndows_Forms_Array\bin\Debug\WIndows_Forms_Array.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\WIndows_Forms_Array\WIndows_Forms_Array\bin\Debug\WIndows_Forms_Array.pdb
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\WIndows_Forms_Array\WIndows_Forms_Array\obj\Debug\WIndows_Forms_Array.csproj.AssemblyReference.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\WIndows_Forms_Array\WIndows_Forms_Array\obj\Debug\WIndows_Forms_Array.csproj.SuggestedBindingRedirects.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\WIndows_Forms_Array\WIndows_Forms_Array\obj\Debug\WIndows_Forms_Array.Form1.resources
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\WIndows_Forms_Array\WIndows_Forms_Array\obj\Debug\WIndows_Forms_Array.Properties.Resources.resources
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\WIndows_Forms_Array\WIndows_Forms_Array\obj\Debug\WIndows_Forms_Array.csproj.GenerateResource.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\WIndows_Forms_Array\WIndows_Forms_Array\obj\Debug\WIndows_Forms_Array.csproj.CoreCompileInputs.cache
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\WIndows_Forms_Array\WIndows_Forms_Array\obj\Debug\WIndows_Forms_Array.exe
+C:\Users\noelm\Documents\GitHub\VS2022\Schule\Windows Forms-App\TESTS\WIndows_Forms_Array\WIndows_Forms_Array\obj\Debug\WIndows_Forms_Array.pdb
